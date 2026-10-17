@@ -6,3 +6,6 @@ desktop.ini
 
 # Product discovery docs stay local (repo is public)
 product/
+
+# Subagent-driven-development scratch workspace (ledger, briefs, review packages)
+.superpowers/
