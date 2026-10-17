@@ -1,0 +1,8 @@
+node_modules/
+.DS_Store
+Thumbs.db
+desktop.ini
+.claude/settings.local.json
+
+# Product discovery docs stay local (repo is public)
+product/
