@@ -1,8 +1,9 @@
-/* Soccer Trivia Game — "sticker album" visual direction (B).
-   Palette: cream paper #F3F0E8, cobalt #2340E0, poster yellow #FFC62E,
-   coral red #FF5436, ink #15172A. Display font Secular One, body Assistant.
-   Thick ink borders, hard (non-blurred) drop shadows, slight card rotation,
-   no emoji — inline stroke SVG icons only. */
+/* Soccer Trivia Game — "sticker album" visual direction (B), matching the
+   approved canvas mockups B-Home.dc.html / B-Question.dc.html /
+   B-Results.dc.html. Palette: cream paper #F3F0E8, cobalt #2340E0, poster
+   yellow #FFC62E, coral red #FF5436, ink #15172A. Display font Secular One,
+   body font Assistant. Thick ink borders, hard (non-blurred) drop shadows,
+   slight card rotation, no emoji — inline stroke SVG icons only. */
 
 :root {
   --cream: #f3f0e8;
@@ -10,6 +11,12 @@
   --yellow: #ffc62e;
   --coral: #ff5436;
   --ink: #15172a;
+  --muted: #4a4d63;
+  --dashed: #9a9789;
+  --soon-text: #5e5c52;
+  --dotted: #c9c5b8;
+  --feedback-bg: #fff6cf;
+  --paper-back: #e4e0d4;
 }
 
 * {
@@ -24,8 +31,8 @@ body {
 
 body {
   background: var(--cobalt);
-  background-image: radial-gradient(circle, rgba(255, 255, 255, 0.08) 1.5px, transparent 1.5px);
-  background-size: 18px 18px;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.22) 1.3px, rgba(255, 255, 255, 0) 1.6px);
+  background-size: 9px 9px;
   font-family: "Assistant", sans-serif;
   color: var(--ink);
   min-height: 100vh;
@@ -43,6 +50,12 @@ body {
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.25);
   border-inline-start: 6px solid var(--ink); /* book-spine edge on desktop */
   overflow-x: hidden;
+}
+
+/* Results screen renders directly on the cobalt background (no cream
+   paper), per the approved mockup. */
+#app.app-cobalt {
+  background: var(--cobalt);
 }
 
 button {
@@ -64,7 +77,6 @@ h3 {
 }
 
 .screen {
-  padding: 24px 20px 32px;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -78,52 +90,43 @@ h3 {
 /* ---------- Buttons ---------- */
 
 .btn {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   gap: 8px;
-  padding: 14px 24px;
-  border: 3px solid var(--ink);
+  width: 100%;
+  min-height: 58px;
+  padding: 10px 20px;
+  border: 2.5px solid var(--ink);
   border-radius: 14px;
   background: var(--yellow);
   color: var(--ink);
   font-family: "Secular One", sans-serif;
-  font-size: 18px;
-  box-shadow: 4px 4px 0 var(--ink);
-  transition: transform 0.05s ease, box-shadow 0.05s ease;
-}
-
-.btn:hover {
-  transform: translate(-1px, -1px);
+  font-size: 20px;
   box-shadow: 5px 5px 0 var(--ink);
 }
 
 .btn:active {
   transform: translate(2px, 2px);
-  box-shadow: 1px 1px 0 var(--ink);
+  box-shadow: 2px 2px 0 var(--ink);
 }
 
 .btn:focus-visible {
-  outline: 3px solid var(--cobalt);
+  outline: 3px solid var(--ink);
   outline-offset: 2px;
 }
 
-.btn-primary {
-  background: var(--yellow);
-}
-
 .btn-secondary {
-  background: var(--cream);
+  background: #fff;
+  box-shadow: none;
+  font-weight: 800;
+  font-size: 17px;
+  min-height: 56px;
 }
 
 .btn-coral {
   background: var(--coral);
-  color: var(--cream);
-}
-
-.btn-block {
-  display: flex;
-  width: 100%;
+  color: #fff;
 }
 
 /* ---------- Name screen ---------- */
@@ -133,6 +136,7 @@ h3 {
   justify-content: center;
   text-align: center;
   gap: 20px;
+  padding: 24px 20px 32px;
 }
 
 .name-card {
@@ -184,185 +188,355 @@ h3 {
 /* ---------- Home screen ---------- */
 
 .home-header {
-  text-align: center;
-  margin-bottom: 20px;
+  position: relative;
+  background-color: var(--cobalt);
+  background-image: radial-gradient(rgba(255, 255, 255, 0.22) 1.3px, rgba(255, 255, 255, 0) 1.6px);
+  background-size: 9px 9px;
+  padding: 22px 22px 28px;
+  border-bottom: 3px solid var(--ink);
 }
 
-.home-header h1 {
-  font-size: 26px;
+.home-header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-badge {
+  background: var(--yellow);
+  color: var(--ink);
+  border: 2px solid var(--ink);
+  border-radius: 6px;
+  padding: 2px 8px;
+  font-family: "Secular One", sans-serif;
+  font-size: 14px;
+  transform: rotate(-3deg);
+  display: inline-block;
+}
+
+.home-season {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.home-greeting {
+  margin-top: 18px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.home-headline {
+  margin: 2px 0 0;
+  font-family: "Secular One", sans-serif;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 1;
+  color: #fff;
+}
+
+.home-subheader {
+  padding: 18px 22px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.home-subheader h2 {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.home-subheader-note {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--muted);
 }
 
 .topic-grid {
+  padding: 14px 22px 0;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 14px;
-  margin-bottom: 20px;
-}
-
-.sticker {
-  position: relative;
-  background: #fff;
-  border: 3px solid var(--ink);
-  border-radius: 16px;
-  box-shadow: 4px 4px 0 var(--ink);
-  padding: 16px 10px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 6px;
-  transform: rotate(-2deg);
-}
-
-.sticker:nth-child(even) {
-  transform: rotate(2deg);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin: 0;
 }
 
 .sticker-live {
-  background: var(--cream);
-  border: 0;
+  border: 2.5px solid var(--ink);
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 5px 5px 0 var(--ink);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
   padding: 0;
-  cursor: pointer;
-  font: inherit;
-  color: inherit;
+  text-align: start;
 }
 
-.sticker-icon {
-  width: 48px;
-  height: 48px;
+.sticker-live:nth-child(odd) {
+  transform: rotate(-1.5deg);
 }
 
-.sticker-label {
-  font-family: "Secular One", sans-serif;
-  font-size: 15px;
+.sticker-live:nth-child(even) {
+  transform: rotate(1.5deg);
 }
 
-.sticker-sublabel {
-  font-size: 12px;
-  opacity: 0.7;
+.sticker-live:focus-visible {
+  outline: 3px solid var(--ink);
+  outline-offset: 3px;
 }
 
-.sticker-status {
-  font-size: 12px;
-  font-weight: 700;
-  color: var(--cobalt);
+.sticker-icon-band {
+  height: 92px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2.5px solid var(--ink);
 }
 
-.sticker-soon {
-  border: 3px dashed var(--ink);
-  background: transparent;
-  box-shadow: none;
-  opacity: 0.6;
-  transform: rotate(0deg);
+.sticker-icon-band--coral {
+  background: var(--coral);
+  color: #fff;
 }
 
-.sticker-soon .sticker-status {
+.sticker-icon-band--yellow {
+  background: var(--yellow);
   color: var(--ink);
 }
 
-.stats-panel {
-  background: var(--ink);
-  color: var(--cream);
-  border-radius: 16px;
-  padding: 16px;
+.sticker-body {
+  padding: 10px 12px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.sticker-title {
+  font-family: "Secular One", sans-serif;
+  font-size: 18px;
+  line-height: 1.1;
+}
+
+.sticker-best-row {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.sticker-best-label {
+  margin-inline-start: 6px;
+  font-weight: 800;
+  font-size: 14px;
+}
+
+.sticker-new {
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--cobalt);
+}
+
+.soon-grid {
+  padding: 22px 22px 0;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.sticker-soon {
+  border: 2px dashed var(--dashed);
+  border-radius: 12px;
+  height: 92px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  color: var(--soon-text);
+}
+
+.sticker-soon-number {
+  font-family: "Secular One", sans-serif;
+  font-size: 20px;
+  color: var(--dashed);
+}
+
+.sticker-soon-label {
+  font-size: 13px;
+  font-weight: 700;
   text-align: center;
-  gap: 8px;
-  margin-top: auto;
+  line-height: 1.1;
+}
+
+.sticker-soon-status {
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.stats-panel {
+  margin: 24px 22px 0;
+  background: #fff;
+  border: 2.5px solid var(--ink);
+  border-radius: 14px;
+  padding: 14px 8px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.stat-col {
+  text-align: center;
+}
+
+.stat-col:nth-child(2) {
+  border-inline-start: 2px dotted var(--dotted);
+  border-inline-end: 2px dotted var(--dotted);
 }
 
 .stat-value {
   font-family: "Secular One", sans-serif;
-  font-size: 24px;
-  color: var(--yellow);
+  font-size: 32px;
+  line-height: 1;
+}
+
+.stat-value--blue {
+  color: var(--cobalt);
+}
+
+.stat-value--coral {
+  color: var(--coral);
+}
+
+.stat-value--ink {
+  color: var(--ink);
 }
 
 .stat-label {
-  font-size: 12px;
-  opacity: 0.85;
+  font-size: 13px;
+  font-weight: 700;
+  margin-top: 4px;
 }
 
 /* ---------- Question screen ---------- */
 
 .question-header {
+  padding: 18px 22px 0;
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  margin-bottom: 16px;
+  align-items: center;
 }
 
 .exit-btn {
-  background: transparent;
-  border: 2px solid var(--ink);
-  border-radius: 50%;
-  width: 36px;
-  height: 36px;
+  border: 2.5px solid var(--ink);
+  border-radius: 12px;
+  background: #fff;
+  width: 44px;
+  height: 44px;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.progress {
-  font-family: "Secular One", sans-serif;
-  font-size: 14px;
-  background: #fff;
-  border: 2px solid var(--ink);
-  border-radius: 20px;
-  padding: 4px 12px;
-}
-
-.difficulty-badge {
-  font-size: 12px;
-  font-weight: 700;
-  padding: 3px 10px;
-  border-radius: 20px;
-  border: 2px solid var(--ink);
-}
-
-.difficulty-regular {
-  background: var(--yellow);
-}
-
-.difficulty-hard {
-  background: var(--coral);
-  color: var(--cream);
-}
-
-.question-card {
-  background: #fff;
-  border: 4px solid var(--ink);
-  border-radius: 16px;
-  box-shadow: 5px 5px 0 var(--ink);
-  padding: 20px;
-  margin-bottom: 16px;
-  transform: rotate(-0.5deg);
-}
-
-.question-text {
-  font-family: "Secular One", sans-serif;
-  font-size: 19px;
-  line-height: 1.4;
-}
-
-.options-list {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  list-style: none;
-  margin: 0 0 16px;
   padding: 0;
 }
 
-.option-btn {
-  width: 100%;
-  text-align: start;
-  padding: 14px 16px;
-  border: 3px solid var(--ink);
-  border-radius: 12px;
+.exit-btn:focus-visible {
+  outline: 3px solid var(--cobalt);
+  outline-offset: 2px;
+}
+
+.progress-dots {
+  display: flex;
+  gap: 5px;
+}
+
+.progress-dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 2px solid var(--ink);
   background: #fff;
-  font-size: 16px;
-  box-shadow: 3px 3px 0 var(--ink);
+  display: inline-block;
+}
+
+.progress-dot--correct {
+  background: var(--cobalt);
+}
+
+.progress-dot--wrong {
+  background: var(--coral);
+}
+
+.progress-dot--unanswered {
+  background: #fff;
+  border-color: var(--dashed);
+}
+
+.question-card {
+  margin: 20px 22px 0;
+  background: #fff;
+  border: 2.5px solid var(--ink);
+  border-radius: 16px;
+  box-shadow: 5px 5px 0 var(--ink);
+  padding: 18px 18px 20px;
+  position: relative;
+}
+
+.question-badges {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.badge-progress {
+  background: var(--yellow);
+  border: 2px solid var(--ink);
+  border-radius: 6px;
+  padding: 1px 8px;
+  font-weight: 800;
+  font-size: 13px;
+}
+
+.badge-difficulty {
+  background: var(--ink);
+  color: #fff;
+  border-radius: 6px;
+  padding: 3px 8px;
+  font-weight: 800;
+  font-size: 13px;
+}
+
+.question-text {
+  margin: 12px 0 0;
+  font-family: "Secular One", sans-serif;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 1.2;
+}
+
+.options-grid {
+  padding: 22px 22px 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin: 0;
+  list-style: none;
+}
+
+.option-btn {
+  position: relative;
+  width: 100%;
+  background: #fff;
+  border: 2.5px solid var(--ink);
+  border-radius: 12px;
+  box-shadow: 4px 4px 0 var(--ink);
+  min-height: 64px;
+  padding: 8px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  font-weight: 800;
+  font-size: 18px;
+  color: var(--ink);
+  text-align: center;
 }
 
 .option-btn:focus-visible {
@@ -380,58 +554,81 @@ h3 {
 }
 
 .option-wrong-pick {
-  background: var(--coral);
-  color: #fff;
+  background: #fff;
+  color: var(--soon-text);
   text-decoration: line-through;
+  text-decoration-color: var(--coral);
+  text-decoration-thickness: 3px;
+  box-shadow: none;
+}
+
+.option-neutral {
+  border-color: var(--dotted);
+  color: var(--soon-text);
+  font-weight: 700;
+  box-shadow: none;
 }
 
 .option-pick-tag {
-  display: inline-block;
-  margin-inline-start: 8px;
+  position: absolute;
+  top: -10px;
+  left: -8px;
+  background: var(--coral);
+  color: #fff;
+  border: 2px solid var(--ink);
+  border-radius: 6px;
+  padding: 0 6px;
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 800;
   text-decoration: none;
+  transform: rotate(-6deg);
 }
 
 /* The "torn tape" feedback note */
 .feedback-note {
   position: relative;
-  background: var(--yellow);
-  border: 3px solid var(--ink);
+  margin: 30px 22px 0;
+  background: var(--feedback-bg);
+  border: 2px solid var(--ink);
   border-radius: 4px;
-  padding: 14px 16px;
-  margin-bottom: 16px;
-  transform: rotate(1deg);
-  font-weight: 700;
+  padding: 22px 18px 16px;
+  transform: rotate(-1deg);
 }
 
 .feedback-note::before {
   content: "";
   position: absolute;
-  top: -10px;
+  top: -12px;
   left: 50%;
-  transform: translateX(-50%) rotate(-2deg);
-  width: 60px;
-  height: 18px;
-  background: rgba(255, 255, 255, 0.75);
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-left: -46px;
+  width: 92px;
+  height: 22px;
+  background: rgba(35, 64, 224, 0.35);
+  transform: rotate(2deg);
 }
 
-.feedback-correct {
-  background: var(--yellow);
+.feedback-title {
+  font-family: "Secular One", sans-serif;
+  font-size: 20px;
 }
 
-.feedback-wrong {
-  background: var(--cream);
+.feedback-title--correct {
+  color: var(--cobalt);
+}
+
+.feedback-title--wrong {
+  color: var(--coral);
 }
 
 .feedback-detail {
-  margin-top: 8px;
-  font-weight: 400;
-  font-size: 14px;
+  margin-top: 6px;
+  font-size: 16px;
+  line-height: 1.45;
+  font-weight: 600;
 }
 
 .next-btn-row {
+  margin: 24px 22px 30px;
   margin-top: auto;
 }
 
@@ -474,83 +671,117 @@ h3 {
 .results-screen {
   align-items: center;
   text-align: center;
-  justify-content: center;
-  gap: 20px;
+  padding: 0 22px 30px;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+.results-sunburst {
+  position: absolute;
+  top: 60px;
+  left: 50%;
+  margin-left: -380px;
+  width: 760px;
+  height: 760px;
+  border-radius: 50%;
+  background: repeating-conic-gradient(rgba(255, 255, 255, 0.1) 0deg 10deg, rgba(255, 255, 255, 0) 10deg 20deg);
+  pointer-events: none;
 }
 
 .sticker-card {
   position: relative;
-  background: #fff;
-  border: 4px solid var(--ink);
-  border-radius: 18px;
-  box-shadow: 6px 6px 0 var(--ink);
-  padding: 32px 24px;
-  transform: rotate(-1.5deg);
+  z-index: 1;
+  margin-top: 24px;
   width: 100%;
+  max-width: 250px;
+  background: #fff;
+  border: 3px solid var(--ink);
+  border-radius: 18px;
+  box-shadow: 7px 7px 0 var(--ink);
+  transform: rotate(-3deg);
   overflow: hidden;
+  color: var(--ink);
 }
 
-/* Peeled-corner effect */
-.sticker-card::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  inset-inline-end: 0;
-  width: 46px;
-  height: 46px;
-  background: linear-gradient(135deg, transparent 50%, var(--cream) 50%);
-  border-inline-start: 3px solid var(--ink);
+.results-topic-label {
+  margin: 0;
+  background: var(--yellow);
   border-bottom: 3px solid var(--ink);
+  padding: 10px 0;
+  text-align: center;
+  font-family: "Secular One", sans-serif;
+  font-size: 18px;
+}
+
+.results-score-wrap {
+  padding: 18px 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .results-score {
   font-family: "Secular One", sans-serif;
-  font-size: 48px;
+  font-size: 88px;
+  line-height: 0.95;
   color: var(--cobalt);
 }
 
-.results-topic-label {
-  font-size: 15px;
-  opacity: 0.75;
-  margin-bottom: 8px;
-}
-
 .stars-row {
+  margin-top: 10px;
   display: flex;
   justify-content: center;
-  gap: 8px;
-  margin: 14px 0;
+  gap: 6px;
 }
 
-.star {
-  width: 36px;
-  height: 36px;
-}
-
-.miss-banner {
-  font-family: "Secular One", sans-serif;
-  color: var(--coral);
-  font-size: 18px;
-  margin-top: 8px;
+/* Peeled-corner effect: reveals the page's cobalt background on one side
+   and the sticker's paper-back tone on the other. */
+.sticker-card::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 34px;
+  height: 34px;
+  background: linear-gradient(45deg, var(--cobalt) 50%, var(--paper-back) 50%);
+  border-top: 3px solid var(--ink);
+  border-right: 3px solid var(--ink);
+  border-radius: 0 10px 0 0;
 }
 
 .new-best-stamp {
+  position: relative;
+  z-index: 1;
+  margin-top: 28px;
   display: inline-block;
-  margin-top: 10px;
-  padding: 6px 16px;
   background: var(--coral);
   color: #fff;
-  border: 3px solid var(--ink);
-  border-radius: 20px;
+  border: 2.5px solid var(--ink);
+  border-radius: 8px;
+  padding: 6px 16px;
   font-family: "Secular One", sans-serif;
-  font-size: 14px;
-  transform: rotate(-3deg);
+  font-size: 20px;
+  transform: rotate(3deg);
+}
+
+.miss-banner {
+  position: relative;
+  z-index: 1;
+  margin-top: 20px;
+  font-family: "Secular One", sans-serif;
+  color: #fff;
+  font-size: 18px;
 }
 
 .results-actions {
+  position: relative;
+  z-index: 1;
+  margin-top: auto;
+  padding-top: 28px;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 14px;
   width: 100%;
 }
 
@@ -560,10 +791,19 @@ h3 {
   margin: auto;
   text-align: center;
   padding: 24px;
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .load-failure p {
   font-family: "Secular One", sans-serif;
   font-size: 18px;
   color: var(--coral);
+}
+
+.load-failure .btn-secondary {
+  width: auto;
+  padding: 10px 24px;
 }

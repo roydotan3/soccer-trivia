@@ -32,6 +32,10 @@ const state = {
   isAnswered: false,
   correctCount: 0,
   previousBest: null,
+  // One entry per round question: null (not answered yet), true (answered
+  // correctly) or false (answered incorrectly). Drives the question
+  // screen's per-question progress dots — display-only, never persisted.
+  answers: [],
 };
 
 function resetRoundState() {
@@ -43,6 +47,7 @@ function resetRoundState() {
   state.isAnswered = false;
   state.correctCount = 0;
   state.previousBest = null;
+  state.answers = [];
 }
 
 function showName() {
@@ -55,11 +60,15 @@ function showName() {
 }
 
 function showHome() {
-  const topics = TOPICS.map((topic) => ({
-    ...topic,
-    best: topic.status === "live" ? store.getBest(topic.id) : null,
-    playable: topic.status === "live",
-  }));
+  const topics = TOPICS.map((topic) => {
+    const best = topic.status === "live" ? store.getBest(topic.id) : null;
+    return {
+      ...topic,
+      best,
+      bestStars: typeof best === "number" ? starsForScore(best) : null,
+      playable: topic.status === "live",
+    };
+  });
 
   renderHomeScreen(
     container,
@@ -74,6 +83,7 @@ function showHome() {
 
 function showLoadFailure() {
   container.innerHTML = "";
+  container.classList.remove("app-cobalt");
   const screen = document.createElement("div");
   screen.className = "screen load-failure";
 
@@ -119,6 +129,7 @@ function startRound() {
   state.selectedIndex = null;
   state.isAnswered = false;
   state.correctCount = 0;
+  state.answers = state.round.map(() => null);
   renderQuestion();
 }
 
@@ -137,6 +148,7 @@ function renderQuestion() {
       correctIndex: current.correctIndex,
       detail: current.detail,
       isAnswered: state.isAnswered,
+      answers: state.answers,
     },
     {
       onSelect(i) {
@@ -157,7 +169,9 @@ function handleSelect(i) {
   state.selectedIndex = i;
   state.isAnswered = true;
   const current = state.round[state.index];
-  if (i === current.correctIndex) {
+  const correct = i === current.correctIndex;
+  state.answers[state.index] = correct;
+  if (correct) {
     state.correctCount += 1;
   }
   renderQuestion();
