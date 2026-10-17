@@ -6,24 +6,24 @@ test("TOPICS has exactly 5 entries", () => {
   assert.equal(TOPICS.length, 5);
 });
 
-test("exactly 2 entries have status 'live' and a dataFile path", () => {
-  const live = TOPICS.filter((t) => t.status === "live");
-  assert.equal(live.length, 2);
-  for (const t of live) {
-    assert.equal(typeof t.dataFile, "string");
-    assert.ok(t.dataFile.length > 0);
+test("all 5 entries are live and have a dataFile path", () => {
+  for (const t of TOPICS) {
+    assert.equal(t.status, "live", `topic "${t.id}" is not live`);
+    assert.equal(typeof t.dataFile, "string", `topic "${t.id}" has no dataFile`);
+    assert.ok(t.dataFile.length > 0, `topic "${t.id}" has an empty dataFile`);
   }
 });
 
-test("the 2 live entries' ids are 'israeli-football' and 'world-cup'", () => {
+test("the 5 live ids are the expected set", () => {
   const liveIds = TOPICS.filter((t) => t.status === "live").map((t) => t.id);
-  assert.deepEqual(new Set(liveIds), new Set(["israeli-football", "world-cup"]));
+  assert.deepEqual(
+    new Set(liveIds),
+    new Set(["israeli-football", "world-cup", "premier-league", "la-liga", "champions-league"]),
+  );
 });
 
-test("the 3 non-live entries have status 'soon'", () => {
-  const nonLive = TOPICS.filter((t) => t.status !== "live");
-  assert.equal(nonLive.length, 3);
-  for (const t of nonLive) {
-    assert.equal(t.status, "soon");
+test("every status is either 'live' or 'soon'", () => {
+  for (const t of TOPICS) {
+    assert.ok(["live", "soon"].includes(t.status), `topic "${t.id}" has status "${t.status}"`);
   }
 });

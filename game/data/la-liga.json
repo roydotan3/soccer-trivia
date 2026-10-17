@@ -1,0 +1,752 @@
+[
+  {
+    "id": "ll-r01",
+    "topic": "la-liga",
+    "difficulty": "regular",
+    "question": "איזו קבוצה מכונה “הלבנים” (Los Blancos)?",
+    "answer": "ריאל מדריד",
+    "distractors": [
+      "ברצלונה",
+      "אתלטיקו מדריד",
+      "ויאריאל"
+    ],
+    "detail": "ל“הלבנים” יש גם כינוי נוסף: לוס מרנגס.",
+    "source": "https://en.wikipedia.org/wiki/Real_Madrid_CF",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ll-r02",
+    "topic": "la-liga",
+    "difficulty": "regular",
+    "question": "באיזה איצטדיון ריאל מדריד משחקת את משחקי הבית שלה?",
+    "answer": "סנטיאגו ברנבאו",
+    "distractors": [
+      "קאמפ נואו",
+      "מטרופוליטנו",
+      "סן מאמס"
+    ],
+    "detail": "האיצטדיון נקרא על שם סנטיאגו ברנבאו, שחקן לשעבר ונשיא ותיק של המועדון.",
+    "source": "https://en.wikipedia.org/wiki/Estadio_Santiago_Bernab%C3%A9u",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ll-r03",
+    "topic": "la-liga",
+    "difficulty": "regular",
+    "question": "באיזה איצטדיון ברצלונה משחקת את משחקי הבית שלה?",
+    "answer": "קאמפ נואו",
+    "distractors": [
+      "סנטיאגו ברנבאו",
+      "מטרופוליטנו",
+      "סן מאמס"
+    ],
+    "detail": "האיצטדיון עובר כיום שיפוץ גדול, והקבוצה חזרה לשחק בו בנובמבר 2025 (נכון לאוקטובר 2026).",
+    "source": "https://en.wikipedia.org/wiki/Camp_Nou",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ll-r04",
+    "topic": "la-liga",
+    "difficulty": "regular",
+    "question": "איך נקרא האיצטדיון הביתי של אתלטיקו מדריד?",
+    "answer": "מטרופוליטנו",
+    "distractors": [
+      "סנטיאגו ברנבאו",
+      "קאמפ נואו",
+      "סן מאמס"
+    ],
+    "detail": "הקבוצה עברה אליו ב-2017 מהאיצטדיון הקודם שלה.",
+    "source": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Madrid",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ll-r05",
+    "topic": "la-liga",
+    "difficulty": "regular",
+    "question": "איזו קבוצה מכונה “הצוללת הצהובה” (El Submarino Amarillo)?",
+    "answer": "ויאריאל",
+    "distractors": [
+      "ולנסיה",
+      "סביליה",
+      "ריאל בטיס"
+    ],
+    "detail": "הקבוצה משחקת בחולצות צהובות, ומכאן הצוללת הצהובה.",
+    "source": "https://en.wikipedia.org/wiki/Villarreal_CF",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ll-r06",
+    "topic": "la-liga",
+    "difficulty": "regular",
+    "question": "איזו קבוצה זכתה באליפות ספרד בעונת 2025/26?",
+    "answer": "ברצלונה",
+    "distractors": [
+      "ריאל מדריד",
+      "אתלטיקו מדריד",
+      "ויאריאל"
+    ],
+    "detail": "הקבוצה הבטיחה את האליפות במאי 2026, שלושה מחזורים לפני סוף העונה, אחרי ניצחון 0:2 על היריבה הגדולה.",
+    "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_La_Liga",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ll-r07",
+    "topic": "la-liga",
+    "difficulty": "regular",
+    "question": "מי היה מלך השערים של לה ליגה בעונת 2025/26?",
+    "answer": "קיליאן אמבפה",
+    "distractors": [
+      "ראפיניה",
+      "רוברט לבנדובסקי",
+      "לאמין ימאל"
+    ],
+    "detail": "זו הפעם השנייה ברציפות שהוא מסיים כמלך השערים של הליגה.",
+    "source": "https://www.realmadrid.com/en-US/news/football/first-team/latest-news/mbappe-gana-el-trofeo-pichichi-2025-26-23-05-2026",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ll-r08",
+    "topic": "la-liga",
+    "difficulty": "regular",
+    "question": "מי הוא מלך השערים של כל הזמנים של לה ליגה?",
+    "answer": "ליונל מסי",
+    "distractors": [
+      "כריסטיאנו רונאלדו",
+      "רוברט לבנדובסקי",
+      "קיליאן אמבפה"
+    ],
+    "detail": "הוא זכה בתואר מלך השערים של הליגה שמונה פעמים, יותר מכל שחקן אחר.",
+    "source": "https://en.wikipedia.org/wiki/La_Liga",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ll-r09",
+    "topic": "la-liga",
+    "difficulty": "regular",
+    "question": "איך נקרא הפרס שמקבל מלך השערים של לה ליגה בסוף העונה?",
+    "answer": "פיצ'יצ'י",
+    "distractors": [
+      "גביע המלך",
+      "הכדור המוזהב",
+      "כפפת הזהב"
+    ],
+    "detail": "הפרס נקרא על שם חלוץ ותיק שכונה פיצ'יצ'י.",
+    "source": "https://en.wikipedia.org/wiki/Pichichi_Trophy",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ll-r10",
+    "topic": "la-liga",
+    "difficulty": "regular",
+    "question": "אילו שתי קבוצות נפגשות באל קלאסיקו?",
+    "answer": "ברצלונה וריאל מדריד",
+    "distractors": [
+      "ריאל מדריד ואתלטיקו מדריד",
+      "ברצלונה ואתלטיקו מדריד",
+      "סביליה וריאל בטיס"
+    ],
+    "detail": "הקלאסיקו הראשון של עונת 2026/27 בלה ליגה נקבע ל-25 באוקטובר 2026.",
+    "source": "https://en.wikipedia.org/wiki/El_Cl%C3%A1sico",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ll-r11",
+    "topic": "la-liga",
+    "difficulty": "regular",
+    "question": "מי מאמן את ברצלונה?",
+    "answer": "האנזי פליק",
+    "distractors": [
+      "קרלו אנצ'לוטי",
+      "דייגו סימאונה",
+      "ז'וזה מוריניו"
+    ],
+    "detail": "האנזי פליק מאמן את ברצלונה (נכון לאוקטובר 2026).",
+    "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_La_Liga",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ll-r12",
+    "topic": "la-liga",
+    "difficulty": "regular",
+    "question": "מי מאמן את ריאל מדריד?",
+    "answer": "ז'וזה מוריניו",
+    "distractors": [
+      "קרלו אנצ'לוטי",
+      "דייגו סימאונה",
+      "האנזי פליק"
+    ],
+    "detail": "ז'וזה מוריניו חזר לאמן את ריאל מדריד בפעם השנייה (נכון לאוקטובר 2026).",
+    "source": "https://www.espn.com/soccer/story/_/id/49012433/real-madrid-alvaro-arbeloa-jose-mourinho-coach",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ll-r13",
+    "topic": "la-liga",
+    "difficulty": "regular",
+    "question": "מי מאמן את אתלטיקו מדריד?",
+    "answer": "דייגו סימאונה",
+    "distractors": [
+      "ז'וזה מוריניו",
+      "האנזי פליק",
+      "קרלו אנצ'לוטי"
+    ],
+    "detail": "דייגו סימאונה מאמן את הקבוצה מאז דצמבר 2011 (נכון לאוקטובר 2026).",
+    "source": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Madrid",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ll-r14",
+    "topic": "la-liga",
+    "difficulty": "regular",
+    "question": "באיזו קבוצה משחק לאמין ימאל?",
+    "answer": "ברצלונה",
+    "distractors": [
+      "ריאל מדריד",
+      "אתלטיקו מדריד",
+      "סביליה"
+    ],
+    "detail": "ימאל נבחר לשחקן העונה של לה ליגה בעונת 2025/26, אך פציעה סיימה את עונתו מוקדם.",
+    "source": "https://www.flashscore.com/news/barcelona-superstar-lamine-yamal-wins-laliga-player-of-the-season-for-2025-26/xhvNqdN5/",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ll-r15",
+    "topic": "la-liga",
+    "difficulty": "regular",
+    "question": "באיזו קבוצה משחק קיליאן אמבפה?",
+    "answer": "ריאל מדריד",
+    "distractors": [
+      "ברצלונה",
+      "אתלטיקו מדריד",
+      "ויאריאל"
+    ],
+    "detail": "הוא הצטרף לריאל מדריד ב-2024 כשחקן חופשי (נכון לאוקטובר 2026).",
+    "source": "https://en.wikipedia.org/wiki/Kylian_Mbapp%C3%A9",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ll-r16",
+    "topic": "la-liga",
+    "difficulty": "regular",
+    "question": "לאיזו נבחרת משחק קיליאן אמבפה?",
+    "answer": "צרפת",
+    "distractors": [
+      "ספרד",
+      "ברזיל",
+      "ארגנטינה"
+    ],
+    "detail": "אמבפה נולד בפריז וזכה עם צרפת במונדיאל 2018.",
+    "source": "https://en.wikipedia.org/wiki/Kylian_Mbapp%C3%A9",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ll-r17",
+    "topic": "la-liga",
+    "difficulty": "regular",
+    "question": "באיזו קבוצה משחק ליונל מסי כיום?",
+    "answer": "אינטר מיאמי",
+    "distractors": [
+      "ברצלונה",
+      "ריאל מדריד",
+      "פריז סן ז'רמן"
+    ],
+    "detail": "ליונל מסי שיחק בברצלונה בין 2004 ל-2021 ומשחק היום באינטר מיאמי (נכון לאוקטובר 2026).",
+    "source": "https://en.wikipedia.org/wiki/Lionel_Messi",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ll-r18",
+    "topic": "la-liga",
+    "difficulty": "regular",
+    "question": "איזו קבוצה בלה ליגה משתפת רק שחקנים שנולדו או גדלו ככדורגלנים בחבל הבאסקים?",
+    "answer": "אתלטיק בילבאו",
+    "distractors": [
+      "ברצלונה",
+      "ולנסיה",
+      "סביליה"
+    ],
+    "detail": "המדיניות הזו קיימת בקבוצה כבר מסביבות 1911.",
+    "source": "https://en.wikipedia.org/wiki/Athletic_Bilbao",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ll-r19",
+    "topic": "la-liga",
+    "difficulty": "regular",
+    "question": "מהו המוטו של ברצלונה?",
+    "answer": "יותר ממועדון",
+    "distractors": [
+      "ביחד עד הסוף",
+      "אף פעם לא לבד",
+      "הכול או כלום"
+    ],
+    "detail": "המוטו נאמר בקטלאנית: Més que un club.",
+    "source": "https://en.wikipedia.org/wiki/FC_Barcelona",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ll-r20",
+    "topic": "la-liga",
+    "difficulty": "regular",
+    "question": "איזו קבוצה זכתה בהכי הרבה אליפויות בתולדות לה ליגה?",
+    "answer": "ריאל מדריד",
+    "distractors": [
+      "ברצלונה",
+      "אתלטיקו מדריד",
+      "אתלטיק בילבאו"
+    ],
+    "detail": "הקבוצה מובילה בפער ברור בטבלת האליפויות של כל הזמנים (נכון לאוקטובר 2026).",
+    "source": "https://en.wikipedia.org/wiki/La_Liga",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ll-r21",
+    "topic": "la-liga",
+    "difficulty": "regular",
+    "question": "איזו קבוצה מכונה “עושי המזרנים” (Los Colchoneros)?",
+    "answer": "אתלטיקו מדריד",
+    "distractors": [
+      "ריאל מדריד",
+      "ברצלונה",
+      "ויאריאל"
+    ],
+    "detail": "לאתלטיקו יש גם כינוי נוסף: האדומים-לבנים.",
+    "source": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Madrid",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ll-r22",
+    "topic": "la-liga",
+    "difficulty": "regular",
+    "question": "איזו קבוצה מכונה “העטלפים” (Murciélagos)?",
+    "answer": "ולנסיה",
+    "distractors": [
+      "סביליה",
+      "ויאריאל",
+      "ריאל בטיס"
+    ],
+    "detail": "כינוי נוסף של הקבוצה הוא לוס צ'ה.",
+    "source": "https://en.wikipedia.org/wiki/Valencia_CF",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ll-r23",
+    "topic": "la-liga",
+    "difficulty": "regular",
+    "question": "באילו צבעים משחקת ריאל בטיס?",
+    "answer": "ירוק-לבן",
+    "distractors": [
+      "אדום-לבן",
+      "צהוב-כחול",
+      "שחור-לבן"
+    ],
+    "detail": "הקבוצה נוסדה בספטמבר 1907.",
+    "source": "https://en.wikipedia.org/wiki/Real_Betis",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ll-r24",
+    "topic": "la-liga",
+    "difficulty": "regular",
+    "question": "כמה קבוצות משחקות כיום בלה ליגה בכל עונה?",
+    "answer": "20",
+    "distractors": [
+      "16",
+      "18",
+      "22"
+    ],
+    "detail": "בסוף כל עונה שלוש קבוצות יורדות ושלוש עולות מהליגה השנייה.",
+    "source": "https://en.wikipedia.org/wiki/Spanish_football_league_system",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ll-r25",
+    "topic": "la-liga",
+    "difficulty": "regular",
+    "question": "איזו קבוצה זכתה בגביע המלך של ספרד בעונת 2025/26?",
+    "answer": "ריאל סוסיאדד",
+    "distractors": [
+      "ברצלונה",
+      "ריאל מדריד",
+      "אתלטיקו מדריד"
+    ],
+    "detail": "הזכייה העניקה לקבוצה מקום בליגה האירופית לעונת 2026/27.",
+    "source": "https://en.wikipedia.org/wiki/Real_Sociedad",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ll-r26",
+    "topic": "la-liga",
+    "difficulty": "regular",
+    "question": "איך נקרא האיצטדיון של אתלטיק בילבאו, המכונה “הקתדרלה”?",
+    "answer": "סן מאמס",
+    "distractors": [
+      "מסטיאיה",
+      "סנטיאגו ברנבאו",
+      "קאמפ נואו"
+    ],
+    "detail": "הכינוי “האריות” של הקבוצה קשור לכנסיית סן מאמס.",
+    "source": "https://en.wikipedia.org/wiki/San_Mam%C3%A9s",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ll-r27",
+    "topic": "la-liga",
+    "difficulty": "regular",
+    "question": "איזו קבוצה סיימה במקום השני בלה ליגה בעונת 2025/26?",
+    "answer": "ריאל מדריד",
+    "distractors": [
+      "אתלטיקו מדריד",
+      "ויאריאל",
+      "ריאל בטיס"
+    ],
+    "detail": "הקבוצה סיימה בפער של 8 נקודות מהאלופה.",
+    "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_La_Liga",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ll-r28",
+    "topic": "la-liga",
+    "difficulty": "regular",
+    "question": "איזו קבוצה מחזיקה בשיא הזכיות בליגה האירופית (גביע אופ״א לשעבר)?",
+    "answer": "סביליה",
+    "distractors": [
+      "ריאל מדריד",
+      "ולנסיה",
+      "ויאריאל"
+    ],
+    "detail": "אליפות ספרד, לעומת זאת, הגיעה לסביליה רק פעם אחת.",
+    "source": "https://en.wikipedia.org/wiki/Sevilla_FC",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ll-r29",
+    "topic": "la-liga",
+    "difficulty": "regular",
+    "question": "איזו מהקבוצות האלה מעולם לא זכתה באליפות ספרד?",
+    "answer": "ויאריאל",
+    "distractors": [
+      "ולנסיה",
+      "סביליה",
+      "ריאל בטיס"
+    ],
+    "detail": "ויאריאל כן זכתה בליגה האירופית בעונת 2020/21, אחרי ניצחון בפנדלים על מנצ'סטר יונייטד.",
+    "source": "https://en.wikipedia.org/wiki/La_Liga",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ll-r30",
+    "topic": "la-liga",
+    "difficulty": "regular",
+    "question": "איך נקראת האקדמיה לנוער של ברצלונה?",
+    "answer": "לה מסיה",
+    "distractors": [
+      "לה פברייקה",
+      "אל פואבלו",
+      "סיודד דפורטיבה"
+    ],
+    "detail": "השם בא מבית חווה ישן ליד הקאמפ נואו, שבו גרו שחקני האקדמיה עד 2011.",
+    "source": "https://en.wikipedia.org/wiki/La_Masia",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ll-h01",
+    "topic": "la-liga",
+    "difficulty": "hard",
+    "question": "באיזו שנה התחילה העונה הראשונה של לה ליגה?",
+    "answer": "1929",
+    "distractors": [
+      "1921",
+      "1926",
+      "1932"
+    ],
+    "detail": "העונה הראשונה נערכה בין פברואר ליוני.",
+    "source": "https://en.wikipedia.org/wiki/1929_La_Liga",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ll-h02",
+    "topic": "la-liga",
+    "difficulty": "hard",
+    "question": "כמה קבוצות השתתפו בעונה הראשונה של לה ליגה?",
+    "answer": "10",
+    "distractors": [
+      "8",
+      "12",
+      "14"
+    ],
+    "detail": "בין הקבוצות שהשתתפו בעונה הראשונה הייתה גם אספניול.",
+    "source": "https://en.wikipedia.org/wiki/1929_La_Liga",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ll-h03",
+    "topic": "la-liga",
+    "difficulty": "hard",
+    "question": "איזו קבוצה זכתה באליפות הראשונה בתולדות לה ליגה?",
+    "answer": "ברצלונה",
+    "distractors": [
+      "ריאל מדריד",
+      "אתלטיק בילבאו",
+      "אתלטיקו מדריד"
+    ],
+    "detail": "האליפות הוכרעה רק במחזור האחרון של העונה.",
+    "source": "https://en.wikipedia.org/wiki/1929_La_Liga",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ll-h04",
+    "topic": "la-liga",
+    "difficulty": "hard",
+    "question": "כמה אליפויות זכתה בהן הקבוצה המצליחה ביותר בתולדות לה ליגה?",
+    "answer": "36",
+    "distractors": [
+      "32",
+      "34",
+      "38"
+    ],
+    "detail": "זה שיא של כל הזמנים בליגה (נכון לאוקטובר 2026).",
+    "source": "https://en.wikipedia.org/wiki/La_Liga",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ll-h05",
+    "topic": "la-liga",
+    "difficulty": "hard",
+    "question": "באיזו עונה זכתה ריאל בטיס באליפות היחידה שלה בתולדות לה ליגה?",
+    "answer": "1934/35",
+    "distractors": [
+      "1944/45",
+      "1954/55",
+      "1964/65"
+    ],
+    "detail": "מאז אותה עונה הקבוצה לא זכתה באליפות נוספת (נכון לאוקטובר 2026).",
+    "source": "https://en.wikipedia.org/wiki/Real_Betis",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ll-h06",
+    "topic": "la-liga",
+    "difficulty": "hard",
+    "question": "מהו שיא הנקודות של קבוצה בעונת לה ליגה אחת?",
+    "answer": "100",
+    "distractors": [
+      "95",
+      "98",
+      "105"
+    ],
+    "detail": "השיא הושג פעמיים: בעונת 2011/12 ובעונת 2012/13.",
+    "source": "https://en.wikipedia.org/wiki/La_Liga",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ll-h07",
+    "topic": "la-liga",
+    "difficulty": "hard",
+    "question": "כמה שערים כבשה הקבוצה עם הכי הרבה שערים בעונה אחת בתולדות לה ליגה?",
+    "answer": "121",
+    "distractors": [
+      "111",
+      "116",
+      "126"
+    ],
+    "detail": "השיא הזה נקבע בעונת 2011/12.",
+    "source": "https://en.wikipedia.org/wiki/La_Liga",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ll-h08",
+    "topic": "la-liga",
+    "difficulty": "hard",
+    "question": "כמה שערי ליגה כבש השחקן עם הכי הרבה שערים בעונת לה ליגה אחת?",
+    "answer": "50",
+    "distractors": [
+      "40",
+      "45",
+      "55"
+    ],
+    "detail": "השיא נקבע בעונת 2011/12 ועדיין עומד (נכון לאוקטובר 2026).",
+    "source": "https://en.wikipedia.org/wiki/Pichichi_Trophy",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ll-h09",
+    "topic": "la-liga",
+    "difficulty": "hard",
+    "question": "כמה שערי ליגה כבש בסך הכול מלך השערים של כל הזמנים של לה ליגה?",
+    "answer": "474",
+    "distractors": [
+      "424",
+      "444",
+      "494"
+    ],
+    "detail": "זהו שיא של כל הזמנים בליגה (נכון לאוקטובר 2026).",
+    "source": "https://en.wikipedia.org/wiki/La_Liga",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ll-h10",
+    "topic": "la-liga",
+    "difficulty": "hard",
+    "question": "כמה הופעות בלה ליגה יש לשחקנים שמחזיקים בשיא ההופעות?",
+    "answer": "622",
+    "distractors": [
+      "592",
+      "602",
+      "632"
+    ],
+    "detail": "השיא משותף לשני שחקנים (נכון לאוקטובר 2026).",
+    "source": "https://en.wikipedia.org/wiki/La_Liga",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ll-h11",
+    "topic": "la-liga",
+    "difficulty": "hard",
+    "question": "מהי התוצאה של הניצחון הגדול ביותר שנרשם אי פעם באל קלאסיקו?",
+    "answer": "ניצחון 1:11",
+    "distractors": [
+      "ניצחון 1:6",
+      "ניצחון 0:8",
+      "ניצחון 0:7"
+    ],
+    "detail": "זה קרה בגביע בשנת 1943.",
+    "source": "https://en.wikipedia.org/wiki/El_Cl%C3%A1sico",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ll-h12",
+    "topic": "la-liga",
+    "difficulty": "hard",
+    "question": "כמה שערים כבש מלך השערים של כל הזמנים באל קלאסיקו?",
+    "answer": "26",
+    "distractors": [
+      "18",
+      "22",
+      "30"
+    ],
+    "detail": "במקום השני, עם 18 שערים כל אחד: כריסטיאנו רונאלדו ואלפרדו די סטפאנו.",
+    "source": "https://en.wikipedia.org/wiki/El_Cl%C3%A1sico",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ll-h13",
+    "topic": "la-liga",
+    "difficulty": "hard",
+    "question": "אחרי הקלאסיקו ב-10 במאי 2026 המאזן הרשמי בין שתי הקבוצות היה שווה. כמה ניצחונות רשמיים היו אז לכל קבוצה?",
+    "answer": "106",
+    "distractors": [
+      "102",
+      "110",
+      "114"
+    ],
+    "detail": "נכון ל-10 במאי 2026 נערכו 264 משחקים רשמיים: 106 ניצחונות לכל קבוצה ו-52 תיקו.",
+    "source": "https://en.wikipedia.org/wiki/El_Cl%C3%A1sico",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ll-h14",
+    "topic": "la-liga",
+    "difficulty": "hard",
+    "question": "באיזו שנה נערך המפגש הראשון בין שתי יריבות הקלאסיקו?",
+    "answer": "1902",
+    "distractors": [
+      "1908",
+      "1915",
+      "1936"
+    ],
+    "detail": "המפגש הראשון נערך במשחק גביע.",
+    "source": "https://en.wikipedia.org/wiki/El_Cl%C3%A1sico",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ll-h15",
+    "topic": "la-liga",
+    "difficulty": "hard",
+    "question": "כמה פעמים זכתה בגביע אירופה לאלופות (ליגת האלופות) הקבוצה המצליחה ביותר בתחרות?",
+    "answer": "15",
+    "distractors": [
+      "12",
+      "13",
+      "14"
+    ],
+    "detail": "הזכייה ה-15 הגיעה ב-2024 (נכון לאוקטובר 2026).",
+    "source": "https://en.wikipedia.org/wiki/Real_Madrid_CF",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ll-h16",
+    "topic": "la-liga",
+    "difficulty": "hard",
+    "question": "נגד איזו קבוצה הפסידה ריאל בטיס 4:1 בגמר ליגת הקונפרנס ב-2025?",
+    "answer": "צ'לסי",
+    "distractors": [
+      "ארסנל",
+      "ליברפול",
+      "מנצ'סטר יונייטד"
+    ],
+    "detail": "בטיס סיימה את עונת 2025/26 במקום החמישי והעפילה לליגת האלופות.",
+    "source": "https://en.wikipedia.org/wiki/Real_Betis",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ll-h17",
+    "topic": "la-liga",
+    "difficulty": "hard",
+    "question": "באיזו שנה נוסדה ברצלונה?",
+    "answer": "1899",
+    "distractors": [
+      "1889",
+      "1905",
+      "1912"
+    ],
+    "detail": "הקבוצה נוסדה ב-29 בנובמבר על ידי יליד שווייץ.",
+    "source": "https://en.wikipedia.org/wiki/FC_Barcelona",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ll-h18",
+    "topic": "la-liga",
+    "difficulty": "hard",
+    "question": "אתלטיקו מדריד נוסדה ב-1903 כסניף של איזו קבוצה?",
+    "answer": "אתלטיק בילבאו",
+    "distractors": [
+      "ריאל מדריד",
+      "ברצלונה",
+      "ריאל סוסיאדד"
+    ],
+    "detail": "הקבוצה נוסדה ב-26 באפריל 1903.",
+    "source": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Madrid",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ll-h19",
+    "topic": "la-liga",
+    "difficulty": "hard",
+    "question": "באיזו שנה נפתח האיצטדיון הביתי של ברצלונה?",
+    "answer": "1957",
+    "distractors": [
+      "1952",
+      "1962",
+      "1967"
+    ],
+    "detail": "מאז 2022 האיצטדיון נושא שם של נותן חסות.",
+    "source": "https://en.wikipedia.org/wiki/Camp_Nou",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ll-h20",
+    "topic": "la-liga",
+    "difficulty": "hard",
+    "question": "באיזו שנה נפתח האיצטדיון החדש של אתלטיק בילבאו?",
+    "answer": "2013",
+    "distractors": [
+      "2008",
+      "2010",
+      "2016"
+    ],
+    "detail": "באיצטדיון החדש יש מקום לכ-53 אלף צופים.",
+    "source": "https://en.wikipedia.org/wiki/San_Mam%C3%A9s",
+    "asOf": "2026-10"
+  }
+]

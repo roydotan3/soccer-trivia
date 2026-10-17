@@ -1,0 +1,752 @@
+[
+  {
+    "id": "pl-r01",
+    "topic": "premier-league",
+    "difficulty": "regular",
+    "question": "איזו קבוצה זכתה באליפות הפרמייר ליג בעונת 2025/26?",
+    "answer": "ארסנל",
+    "distractors": [
+      "מנצ'סטר סיטי",
+      "ליברפול",
+      "מנצ'סטר יונייטד"
+    ],
+    "detail": "ארסנל סיימה את עונת 2025/26 במקום הראשון והניפה את גביע האליפות במאי 2026.",
+    "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Premier_League",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "pl-r02",
+    "topic": "premier-league",
+    "difficulty": "regular",
+    "question": "מי זכה בנעל הזהב של הפרמייר ליג בעונת 2025/26, כמלך השערים של הליגה?",
+    "answer": "ארלינג הולאנד",
+    "distractors": [
+      "מוחמד סלאח",
+      "הארי קיין",
+      "ברונו פרננדש"
+    ],
+    "detail": "הולאנד, שמשחק במנצ'סטר סיטי, סיים את העונה כמלך השערים של הליגה.",
+    "source": "https://www.premierleague.com/en/news/4591856/haaland-wins-202526-premier-league-golden-boot-award",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "pl-r03",
+    "topic": "premier-league",
+    "difficulty": "regular",
+    "question": "מי נבחר לשחקן העונה בפרמייר ליג בעונת 2025/26?",
+    "answer": "ברונו פרננדש",
+    "distractors": [
+      "ארלינג הולאנד",
+      "דויד ראיה",
+      "דקלן רייס"
+    ],
+    "detail": "ברונו פרננדש שיחק באותה עונה במנצ'סטר יונייטד, שסיימה את העונה במקום השלישי.",
+    "source": "https://sport1.maariv.co.il/world-soccer/premier-league/article/1857716/",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "pl-r04",
+    "topic": "premier-league",
+    "difficulty": "regular",
+    "question": "מי המאמן שניהל הכי הרבה משחקים בהיסטוריית הפרמייר ליג?",
+    "answer": "ארסן ונגר",
+    "distractors": [
+      "מיקל ארטטה",
+      "יורגן קלופ",
+      "פפ גווארדיולה"
+    ],
+    "detail": "ונגר ניהל יותר משחקים בפרמייר ליג מכל מאמן אחר, וכולם בקבוצה אחת.",
+    "source": "https://www.premierleague.com/stats/records",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "pl-r05",
+    "topic": "premier-league",
+    "difficulty": "regular",
+    "question": "איזו קבוצה משחקת באצטדיון אולד טראפורד (Old Trafford)?",
+    "answer": "מנצ'סטר יונייטד",
+    "distractors": [
+      "ליברפול",
+      "צ'לסי",
+      "טוטנהאם"
+    ],
+    "detail": "אולד טראפורד הוא הגדול ביותר מבין האצטדיונים של קבוצות הפרמייר ליג.",
+    "source": "https://en.wikipedia.org/wiki/Manchester_United_F.C.",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "pl-r06",
+    "topic": "premier-league",
+    "difficulty": "regular",
+    "question": "איזו קבוצה משחקת באצטדיון אנפילד (Anfield)?",
+    "answer": "ליברפול",
+    "distractors": [
+      "אברטון",
+      "אסטון וילה",
+      "ניוקאסל"
+    ],
+    "detail": "אנפילד הוא ביתה של ליברפול מאז 1892.",
+    "source": "https://en.wikipedia.org/wiki/Liverpool_F.C.",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "pl-r07",
+    "topic": "premier-league",
+    "difficulty": "regular",
+    "question": "איזו קבוצה משחקת באצטדיון סטמפורד ברידג' (Stamford Bridge)?",
+    "answer": "צ'לסי",
+    "distractors": [
+      "פולהאם",
+      "טוטנהאם",
+      "ווסטהאם יונייטד"
+    ],
+    "detail": "סטמפורד ברידג' נפתח ב-1877, בתחילה כמגרש אתלטיקה.",
+    "source": "https://en.wikipedia.org/wiki/Chelsea_F.C.",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "pl-r08",
+    "topic": "premier-league",
+    "difficulty": "regular",
+    "question": "איזו קבוצה משחקת באצטדיון האתיחאד (Etihad)?",
+    "answer": "מנצ'סטר סיטי",
+    "distractors": [
+      "מנצ'סטר יונייטד",
+      "ליברפול",
+      "אברטון"
+    ],
+    "detail": "האצטדיון נפתח ב-2002, ומנצ'סטר סיטי עברה אליו ב-2003.",
+    "source": "https://en.wikipedia.org/wiki/Manchester_City_F.C.",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "pl-r09",
+    "topic": "premier-league",
+    "difficulty": "regular",
+    "question": "איזו קבוצה משחקת באצטדיון סנט ג'יימס פארק (St James' Park)?",
+    "answer": "ניוקאסל",
+    "distractors": [
+      "סנדרלנד",
+      "לידס יונייטד",
+      "האל סיטי"
+    ],
+    "detail": "ניוקאסל משחקת בסנט ג'יימס פארק מאז 1892.",
+    "source": "https://en.wikipedia.org/wiki/Newcastle_United_F.C.",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "pl-r10",
+    "topic": "premier-league",
+    "difficulty": "regular",
+    "question": "איזו קבוצה מכונה 'השחפים' (The Seagulls)?",
+    "answer": "ברייטון",
+    "distractors": [
+      "בורנמות'",
+      "ברנטפורד",
+      "קריסטל פאלאס"
+    ],
+    "detail": "ברייטון מכונה גם The Albion, והיא משחקת בפסים כחולים-לבנים.",
+    "source": "https://en.wikipedia.org/wiki/Brighton_%26_Hove_Albion_F.C.",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "pl-r11",
+    "topic": "premier-league",
+    "difficulty": "regular",
+    "question": "איזו קבוצה מכונה 'הדובדבנים' (The Cherries)?",
+    "answer": "בורנמות'",
+    "distractors": [
+      "ברייטון",
+      "פולהאם",
+      "אברטון"
+    ],
+    "detail": "בורנמות' משחקת בצבעי אדום ושחור.",
+    "source": "https://en.wikipedia.org/wiki/AFC_Bournemouth",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "pl-r12",
+    "topic": "premier-league",
+    "difficulty": "regular",
+    "question": "איזו קבוצה מכונה 'הדבורים' (The Bees)?",
+    "answer": "ברנטפורד",
+    "distractors": [
+      "פולהאם",
+      "ברייטון",
+      "סנדרלנד"
+    ],
+    "detail": "ברנטפורד משחקת בפסים אדומים-לבנים.",
+    "source": "https://en.wikipedia.org/wiki/Brentford_F.C.",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "pl-r13",
+    "topic": "premier-league",
+    "difficulty": "regular",
+    "question": "איזו קבוצה מכונה 'החתולים השחורים' (The Black Cats)?",
+    "answer": "סנדרלנד",
+    "distractors": [
+      "האל סיטי",
+      "ניוקאסל",
+      "לידס יונייטד"
+    ],
+    "detail": "סנדרלנד משחקת בפסים אדומים-לבנים.",
+    "source": "https://en.wikipedia.org/wiki/Sunderland_A.F.C.",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "pl-r14",
+    "topic": "premier-league",
+    "difficulty": "regular",
+    "question": "איזו קבוצה מכונה 'הנשרים' (The Eagles)?",
+    "answer": "קריסטל פאלאס",
+    "distractors": [
+      "ברייטון",
+      "ניוקאסל",
+      "אסטון וילה"
+    ],
+    "detail": "קריסטל פאלאס מכונה גם The Glaziers, והיא משחקת בפסים אדומים-כחולים.",
+    "source": "https://en.wikipedia.org/wiki/Crystal_Palace_F.C.",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "pl-r15",
+    "topic": "premier-league",
+    "difficulty": "regular",
+    "question": "איזו קבוצה מכונה 'הנמרים' (The Tigers)?",
+    "answer": "האל סיטי",
+    "distractors": [
+      "קובנטרי סיטי",
+      "לידס יונייטד",
+      "נוטינגהאם פורסט"
+    ],
+    "detail": "האל סיטי משחקת בשחור וענבר, והיא אחת משלוש הקבוצות שעלו לפרמייר ליג לעונת 2026/27.",
+    "source": "https://en.wikipedia.org/wiki/Hull_City_A.F.C.",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "pl-r16",
+    "topic": "premier-league",
+    "difficulty": "regular",
+    "question": "איזו קבוצה מכונה 'ספרז' (Spurs)?",
+    "answer": "טוטנהאם",
+    "distractors": [
+      "ווסטהאם יונייטד",
+      "פולהאם",
+      "ארסנל"
+    ],
+    "detail": "שמה המלא של הקבוצה הוא Tottenham Hotspur, והיא מכונה גם The Lilywhites.",
+    "source": "https://en.wikipedia.org/wiki/Tottenham_Hotspur_F.C.",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "pl-r17",
+    "topic": "premier-league",
+    "difficulty": "regular",
+    "question": "איזו קבוצה מכונה 'הקוטג'רס' (The Cottagers)?",
+    "answer": "פולהאם",
+    "distractors": [
+      "ברנטפורד",
+      "ברייטון",
+      "קריסטל פאלאס"
+    ],
+    "detail": "פולהאם נוסדה ב-1879 ונחשבת למועדון הכדורגל המקצועני הוותיק ביותר בלונדון.",
+    "source": "https://en.wikipedia.org/wiki/Fulham_F.C.",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "pl-r18",
+    "topic": "premier-league",
+    "difficulty": "regular",
+    "question": "איזו קבוצה זכתה בהכי הרבה אליפויות בפרמייר ליג?",
+    "answer": "מנצ'סטר יונייטד",
+    "distractors": [
+      "מנצ'סטר סיטי",
+      "צ'לסי",
+      "ליברפול"
+    ],
+    "detail": "מנצ'סטר יונייטד היא האלופה המוכתרת ביותר מאז הקמת הפרמייר ליג, וכל תאריה הושגו תחת מאמן אחד.",
+    "source": "https://theanalyst.com/articles/premier-league-records",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "pl-r19",
+    "topic": "premier-league",
+    "difficulty": "regular",
+    "question": "מי הוא מלך השערים של כל הזמנים בפרמייר ליג (נכון לאוקטובר 2026)?",
+    "answer": "אלן שירר",
+    "distractors": [
+      "הארי קיין",
+      "מוחמד סלאח",
+      "תיירי הנרי"
+    ],
+    "detail": "שירר מחזיק בשיא השערים של הפרמייר ליג (נכון לאוקטובר 2026).",
+    "source": "https://www.premierleague.com/stats/records",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "pl-r20",
+    "topic": "premier-league",
+    "difficulty": "regular",
+    "question": "איזה שחקן הבקיע הכי הרבה שערים בפרמייר ליג במדי קבוצה אחת?",
+    "answer": "הארי קיין",
+    "distractors": [
+      "מוחמד סלאח",
+      "תיירי הנרי",
+      "קווין דה בראונה"
+    ],
+    "detail": "קיין הבקיע במדי טוטנהאם יותר שערים בפרמייר ליג מכל שחקן אחר במדי קבוצה אחת (נכון לאוקטובר 2026).",
+    "source": "https://www.premierleague.com/stats/records",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "pl-r21",
+    "topic": "premier-league",
+    "difficulty": "regular",
+    "question": "איזו קבוצה היא היחידה שזכתה בארבע אליפויות רצופות בפרמייר ליג?",
+    "answer": "מנצ'סטר סיטי",
+    "distractors": [
+      "ארסנל",
+      "ליברפול",
+      "מנצ'סטר יונייטד"
+    ],
+    "detail": "הרצף של מנצ'סטר סיטי נמשך מעונת 2020/21 ועד עונת 2023/24.",
+    "source": "https://www.premierleague.com/stats/records",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "pl-r22",
+    "topic": "premier-league",
+    "difficulty": "regular",
+    "question": "איזו קבוצה סיימה את עונת 2003/04 בלי אף הפסד? זו הפעם היחידה בפרמייר ליג שזה קרה.",
+    "answer": "ארסנל",
+    "distractors": [
+      "צ'לסי",
+      "מנצ'סטר יונייטד",
+      "מנצ'סטר סיטי"
+    ],
+    "detail": "הקבוצה ההיא כונתה 'הבלתי מנוצחים' (The Invincibles).",
+    "source": "https://www.premierleague.com/stats/records",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "pl-r23",
+    "topic": "premier-league",
+    "difficulty": "regular",
+    "question": "איזו מהקבוצות האלה ירדה ליגה בסוף עונת 2025/26?",
+    "answer": "ווסטהאם יונייטד",
+    "distractors": [
+      "טוטנהאם",
+      "אסטון וילה",
+      "פולהאם"
+    ],
+    "detail": "ווסטהאם יונייטד ירדה ליגה במחזור האחרון, בעוד טוטנהאם נשארה בליגה.",
+    "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Premier_League",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "pl-r24",
+    "topic": "premier-league",
+    "difficulty": "regular",
+    "question": "מי מאמן ארסנל (נכון לאוקטובר 2026)?",
+    "answer": "מיקל ארטטה",
+    "distractors": [
+      "פפ גווארדיולה",
+      "ארסן ונגר",
+      "יורגן קלופ"
+    ],
+    "detail": "ארטטה מאמן את ארסנל מאז דצמבר 2019, והוא המאמן הוותיק ביותר בפרמייר ליג (נכון לאוקטובר 2026).",
+    "source": "https://www.premierleague.com/en/news/4679012/manager-line-up-complete-for-202627-season",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "pl-r25",
+    "topic": "premier-league",
+    "difficulty": "regular",
+    "question": "מי מאמן מנצ'סטר סיטי (נכון לאוקטובר 2026)?",
+    "answer": "אנצו מארסקה",
+    "distractors": [
+      "פפ גווארדיולה",
+      "מיקל ארטטה",
+      "צ'אבי אלונסו"
+    ],
+    "detail": "מארסקה החליף את פפ גווארדיולה, שהודיע על עזיבתו במאי 2026 (נכון לאוקטובר 2026).",
+    "source": "https://sports.yahoo.com/articles/premier-league-big-six-now-095917732.html",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "pl-r26",
+    "topic": "premier-league",
+    "difficulty": "regular",
+    "question": "מי מאמן צ'לסי (נכון לאוקטובר 2026)?",
+    "answer": "צ'אבי אלונסו",
+    "distractors": [
+      "אנצו מארסקה",
+      "פפ גווארדיולה",
+      "רובן אמורים"
+    ],
+    "detail": "אלונסו נכנס לתפקיד ביולי 2026 (נכון לאוקטובר 2026).",
+    "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Chelsea_F.C._season",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "pl-r27",
+    "topic": "premier-league",
+    "difficulty": "regular",
+    "question": "מי מאמן ליברפול (נכון לאוקטובר 2026)?",
+    "answer": "אנדוני איראולה",
+    "distractors": [
+      "ארנה סלוט",
+      "יורגן קלופ",
+      "מיקל ארטטה"
+    ],
+    "detail": "איראולה החליף את ארנה סלוט, שפוטר במאי 2026 (נכון לאוקטובר 2026).",
+    "source": "https://www.premierleague.com/en/news/4679012/manager-line-up-complete-for-202627-season",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "pl-r28",
+    "topic": "premier-league",
+    "difficulty": "regular",
+    "question": "מי מאמן מנצ'סטר יונייטד (נכון לאוקטובר 2026)?",
+    "answer": "מייקל קאריק",
+    "distractors": [
+      "רובן אמורים",
+      "ארנה סלוט",
+      "מיקל ארטטה"
+    ],
+    "detail": "קאריק מונה למאמן זמני בינואר 2026 אחרי עזיבתו של רובן אמורים, ובמאי 2026 מונה למאמן קבוע (נכון לאוקטובר 2026).",
+    "source": "https://sports.walla.co.il/item/3839973",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "pl-r29",
+    "topic": "premier-league",
+    "difficulty": "regular",
+    "question": "נכון ל-17 באוקטובר 2026, איזו קבוצה מובילה את טבלת הפרמייר ליג בעונת 2026/27?",
+    "answer": "מנצ'סטר סיטי",
+    "distractors": [
+      "ארסנל",
+      "ברייטון",
+      "צ'לסי"
+    ],
+    "detail": "מנצ'סטר סיטי הובילה עם 18 נקודות מ-6 משחקים, לפני ארסנל עם 15 נקודות (נכון ל-17 באוקטובר 2026).",
+    "source": "https://www.nbcsports.com/soccer/news/premier-league-table-for-2026-27-season",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "pl-r30",
+    "topic": "premier-league",
+    "difficulty": "regular",
+    "question": "ארסנל פתחה את עונת 2026/27 בבית מול קבוצה שעלתה זה עתה לפרמייר ליג. איזו קבוצה זו?",
+    "answer": "קובנטרי סיטי",
+    "distractors": [
+      "ברייטון",
+      "פולהאם",
+      "נוטינגהאם פורסט"
+    ],
+    "detail": "קובנטרי סיטי היא אחת משלוש הקבוצות שעלו לפרמייר ליג לעונת 2026/27.",
+    "source": "https://sport1.maariv.co.il/world-soccer/premier-league/article/1877560/",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "pl-h01",
+    "topic": "premier-league",
+    "difficulty": "hard",
+    "question": "באיזו עונה נפתחה הפרמייר ליג לראשונה?",
+    "answer": "1992/93",
+    "distractors": [
+      "1990/91",
+      "1991/92",
+      "1993/94"
+    ],
+    "detail": "הפרמייר ליג נוסדה בפברואר 1992, והעונה הראשונה נפתחה ב-15 באוגוסט 1992.",
+    "source": "https://www.premierleague.com/en/news/58731",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "pl-h02",
+    "topic": "premier-league",
+    "difficulty": "hard",
+    "question": "כמה קבוצות השתתפו בעונה הראשונה של הפרמייר ליג?",
+    "answer": "22",
+    "distractors": [
+      "18",
+      "20",
+      "24"
+    ],
+    "detail": "בעונה הראשונה שיחקו 22 קבוצות, ומאוחר יותר צומצם מספרן.",
+    "source": "https://www.premierleague.com/en/news/58731",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "pl-h03",
+    "topic": "premier-league",
+    "difficulty": "hard",
+    "question": "מהו שיא השערים של שחקן אחד בעונה אחת בפרמייר ליג?",
+    "answer": "36 שערים",
+    "distractors": [
+      "30 שערים",
+      "32 שערים",
+      "34 שערים"
+    ],
+    "detail": "השיא נקבע בעונת 2022/23.",
+    "source": "https://www.premierleague.com/stats/records",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "pl-h04",
+    "topic": "premier-league",
+    "difficulty": "hard",
+    "question": "מהו שיא הנקודות של קבוצה בעונה אחת בפרמייר ליג?",
+    "answer": "100 נקודות",
+    "distractors": [
+      "90 נקודות",
+      "95 נקודות",
+      "98 נקודות"
+    ],
+    "detail": "השיא נקבע בעונת 2017/18, ושבר את השיא הקודם של 95 נקודות.",
+    "source": "https://www.goal.com/en-gb/news/man-city-reach-100-points-to-set-new-premier-league-record/j9jv3wtz4q2t1j8lrg83wn3oe",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "pl-h05",
+    "topic": "premier-league",
+    "difficulty": "hard",
+    "question": "מהו מספר הנקודות הנמוך ביותר שבו קבוצה סיימה עונה בפרמייר ליג?",
+    "answer": "11 נקודות",
+    "distractors": [
+      "5 נקודות",
+      "8 נקודות",
+      "14 נקודות"
+    ],
+    "detail": "השיא השלילי נקבע בעונת 2007/08.",
+    "source": "https://theanalyst.com/articles/premier-league-records",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "pl-h06",
+    "topic": "premier-league",
+    "difficulty": "hard",
+    "question": "מהו הרצף הארוך ביותר של משחקים ללא הפסד שקבוצה השיגה בפרמייר ליג בעונת 2025/26?",
+    "answer": "18 משחקים",
+    "distractors": [
+      "14 משחקים",
+      "16 משחקים",
+      "21 משחקים"
+    ],
+    "detail": "זה היה ארוך בהרבה מרצף הניצחונות הארוך ביותר של קבוצה באותה עונה, שהסתכם בשמונה משחקים.",
+    "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Premier_League",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "pl-h07",
+    "topic": "premier-league",
+    "difficulty": "hard",
+    "question": "מהו המספר הנמוך ביותר של שערים שספגה קבוצה בעונה אחת בפרמייר ליג?",
+    "answer": "15 שערים",
+    "distractors": [
+      "12 שערים",
+      "18 שערים",
+      "22 שערים"
+    ],
+    "detail": "השיא נקבע בעונת 2004/05.",
+    "source": "https://www.premierleague.com/stats/records",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "pl-h08",
+    "topic": "premier-league",
+    "difficulty": "hard",
+    "question": "ניצחון 9-0 הוא הגדול ביותר בתולדות הפרמייר ליג. כמה פעמים נרשמה תוצאה כזו?",
+    "answer": "ארבע פעמים",
+    "distractors": [
+      "פעם אחת",
+      "פעמיים",
+      "שלוש פעמים"
+    ],
+    "detail": "זהו הפער הגדול ביותר שנרשם אי פעם בליגה.",
+    "source": "https://theanalyst.com/articles/premier-league-records",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "pl-h09",
+    "topic": "premier-league",
+    "difficulty": "hard",
+    "question": "מהו שיא המשחקים ברצף שבהם שחקן הבקיע בפרמייר ליג?",
+    "answer": "11 משחקים",
+    "distractors": [
+      "8 משחקים",
+      "9 משחקים",
+      "13 משחקים"
+    ],
+    "detail": "השיא נקבע ב-2015.",
+    "source": "https://theanalyst.com/articles/premier-league-records",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "pl-h10",
+    "topic": "premier-league",
+    "difficulty": "hard",
+    "question": "כמה בישולים רשם מי שמחזיק בשיא הבישולים בקריירה בפרמייר ליג?",
+    "answer": "162",
+    "distractors": [
+      "120",
+      "140",
+      "180"
+    ],
+    "detail": "מדובר בשיא כל הזמנים של הפרמייר ליג בבישולים (נכון לאוקטובר 2026).",
+    "source": "https://www.premierleague.com/stats/records",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "pl-h11",
+    "topic": "premier-league",
+    "difficulty": "hard",
+    "question": "כמה בישולים רשם מוביל הבישולים של עונת 2025/26, ובכך קבע שיא פרמייר ליג לעונה אחת?",
+    "answer": "21",
+    "distractors": [
+      "17",
+      "19",
+      "23"
+    ],
+    "detail": "זהו שיא הפרמייר ליג לבישולים בעונה אחת.",
+    "source": "https://www.si.com/soccer/2025-26-premier-league-top-scorers-most-assists-golden-glove-winner",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "pl-h12",
+    "topic": "premier-league",
+    "difficulty": "hard",
+    "question": "כמה שערים נקיים צבר שוער הפרמייר ליג בעל הכי הרבה שערים נקיים בקריירה?",
+    "answer": "202",
+    "distractors": [
+      "150",
+      "180",
+      "220"
+    ],
+    "detail": "זהו שיא כל הזמנים של הפרמייר ליג בשערים נקיים בקריירה.",
+    "source": "https://www.premierleague.com/stats/records",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "pl-h13",
+    "topic": "premier-league",
+    "difficulty": "hard",
+    "question": "מהו שיא הניצחונות של קבוצה בעונה אחת בפרמייר ליג?",
+    "answer": "32 ניצחונות",
+    "distractors": [
+      "28 ניצחונות",
+      "30 ניצחונות",
+      "34 ניצחונות"
+    ],
+    "detail": "השיא הזה הושג על ידי יותר מקבוצה אחת.",
+    "source": "https://www.premierleague.com/stats/records",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "pl-h14",
+    "topic": "premier-league",
+    "difficulty": "hard",
+    "question": "כמה ניצחונות השיג המאמן עם הכי הרבה ניצחונות בהיסטוריית הפרמייר ליג?",
+    "answer": "528",
+    "distractors": [
+      "450",
+      "480",
+      "510"
+    ],
+    "detail": "הוא גם המאמן עם הכי הרבה אליפויות בפרמייר ליג.",
+    "source": "https://www.premierleague.com/hall-of-fame/inductees/alex-ferguson",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "pl-h15",
+    "topic": "premier-league",
+    "difficulty": "hard",
+    "question": "מהו שיא ההפסדים ברצף של קבוצה בפרמייר ליג?",
+    "answer": "20 הפסדים",
+    "distractors": [
+      "12 הפסדים",
+      "15 הפסדים",
+      "17 הפסדים"
+    ],
+    "detail": "השיא נקבע בין 2003 ל-2005.",
+    "source": "https://www.premierleague.com/stats/records",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "pl-h16",
+    "topic": "premier-league",
+    "difficulty": "hard",
+    "question": "כמה נקודות צברה אלופת הפרמייר ליג בעונת 2025/26?",
+    "answer": "85 נקודות",
+    "distractors": [
+      "80 נקודות",
+      "88 נקודות",
+      "91 נקודות"
+    ],
+    "detail": "האלופה סיימה את העונה עם 26 ניצחונות, 7 תיקואים ו-5 הפסדים.",
+    "source": "https://www.nbcsports.com/premier-league-table-2025-26-season-standings",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "pl-h17",
+    "topic": "premier-league",
+    "difficulty": "hard",
+    "question": "באיזו שנה נפתח האצטדיון החדש של אברטון, Hill Dickinson Stadium?",
+    "answer": "2025",
+    "distractors": [
+      "2021",
+      "2023",
+      "2024"
+    ],
+    "detail": "אברטון עזבה את גודיסון פארק (Goodison Park), שהיה ביתה מאז 1892.",
+    "source": "https://en.wikipedia.org/wiki/List_of_football_stadiums_in_England",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "pl-h18",
+    "topic": "premier-league",
+    "difficulty": "hard",
+    "question": "באיזו עונה זכתה אסטון וילה בגביע אירופה לאלופות?",
+    "answer": "1981/82",
+    "distractors": [
+      "1978/79",
+      "1979/80",
+      "1983/84"
+    ],
+    "detail": "אסטון וילה ניצחה 1-0 בגמר.",
+    "source": "https://en.wikipedia.org/wiki/Aston_Villa_F.C.",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "pl-h19",
+    "topic": "premier-league",
+    "difficulty": "hard",
+    "question": "באיזו שנה זכתה איפסוויץ' טאון בגביע אופ\"א?",
+    "answer": "1981",
+    "distractors": [
+      "1962",
+      "1978",
+      "1983"
+    ],
+    "detail": "איפסוויץ' זכתה גם באליפות אנגליה (1961/62) ובגביע ה-FA (1978).",
+    "source": "https://en.wikipedia.org/wiki/Ipswich_Town_F.C.",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "pl-h20",
+    "topic": "premier-league",
+    "difficulty": "hard",
+    "question": "כמה פעמים זכתה לידס יונייטד באליפות אנגליה?",
+    "answer": "שלוש פעמים",
+    "distractors": [
+      "פעם אחת",
+      "פעמיים",
+      "ארבע פעמים"
+    ],
+    "detail": "לידס זכתה באליפות ב-1968/69, ב-1973/74 וב-1991/92.",
+    "source": "https://en.wikipedia.org/wiki/Leeds_United_F.C.",
+    "asOf": "2026-10"
+  }
+]

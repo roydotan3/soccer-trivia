@@ -1,6 +1,5 @@
 // Static catalog of the game's topics ("album pages"). Pure data — no DOM,
-// no storage. Two topics are live (with a question-bank data file); the
-// rest are "soon" placeholders shown but not tappable.
+// no storage. All topics are live, each with a question-bank data file.
 
 export const TOPICS = [
   {
@@ -23,18 +22,21 @@ export const TOPICS = [
     id: "premier-league",
     emoji: "⚽",
     label: "הפרמייר ליג",
-    status: "soon",
+    status: "live",
+    dataFile: "data/premier-league.json",
   },
   {
     id: "la-liga",
     emoji: "⚽",
     label: "לה ליגה",
-    status: "soon",
+    status: "live",
+    dataFile: "data/la-liga.json",
   },
   {
     id: "champions-league",
     emoji: "⚽",
     label: "ליגת האלופות",
-    status: "soon",
+    status: "live",
+    dataFile: "data/champions-league.json",
   },
 ];

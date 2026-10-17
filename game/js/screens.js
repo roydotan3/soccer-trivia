@@ -53,12 +53,13 @@ function starIcon(filled, variant, size) {
   return `<svg class="icon" width="${size}" height="${size}" viewBox="0 0 24 24" fill="none" stroke="${INK}" stroke-width="1.5" stroke-linejoin="round" aria-hidden="true"><path d="${STAR_PATH}"></path></svg>`;
 }
 
-// Live topics get a fixed icon + icon-band color per the mockup (coral band
-// + white ball icon for israeli-football, yellow band + ink globe icon for
-// world-cup).
+// Fixed icon + band per topic: globe on yellow for world-cup; ball elsewhere, coral/yellow alternating.
 function bandForTopic(topicId) {
   if (topicId === "world-cup") {
     return { bandClass: "sticker-icon-band--yellow", icon: globeIcon() };
+  }
+  if (topicId === "la-liga") {
+    return { bandClass: "sticker-icon-band--yellow", icon: ballIcon() };
   }
   return { bandClass: "sticker-icon-band--coral", icon: ballIcon() };
 }

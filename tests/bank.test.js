@@ -1,8 +1,10 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
+import { basename } from "node:path";
 import { fileURLToPath } from "node:url";
 import { validateBank } from "../tools/validate-bank.js";
+import { TOPICS } from "../game/js/topics.js";
 
 const dataPath = (name) => fileURLToPath(new URL(`../game/data/${name}`, import.meta.url));
 const loadBank = (name) => JSON.parse(readFileSync(dataPath(name), "utf8"));
@@ -111,28 +113,26 @@ test("passes a well-formed 30-regular + 20-hard bank with no errors", () => {
   assert.deepEqual(result, { valid: true, errors: [] });
 });
 
-test("the real israeli-football.json content bank is valid (30 regular + 20 hard, internally consistent topic/id prefix)", () => {
-  const bank = loadBank("israeli-football.json");
+const ID_PREFIX = {
+  "israeli-football": "isr-",
+  "world-cup": "wc-",
+  "premier-league": "pl-",
+  "la-liga": "ll-",
+  "champions-league": "ucl-",
+};
 
-  const result = validateBank(bank, { expectedRegular: 30, expectedHard: 20 });
+for (const topic of TOPICS.filter((t) => t.status === "live")) {
+  test(`the real ${topic.id} content bank is valid (30 regular + 20 hard, consistent topic/id prefix)`, () => {
+    const bank = loadBank(basename(topic.dataFile));
 
-  assert.deepEqual(result.errors, []);
-  assert.equal(result.valid, true);
-  for (const q of bank) {
-    assert.equal(q.topic, "israeli-football", `question "${q.id}" has topic "${q.topic}", expected "israeli-football"`);
-    assert.match(q.id, /^isr-/, `question "${q.id}" does not start with the "isr-" prefix`);
-  }
-});
+    const result = validateBank(bank, { expectedRegular: 30, expectedHard: 20 });
 
-test("the real world-cup.json content bank is valid (30 regular + 20 hard, internally consistent topic/id prefix)", () => {
-  const bank = loadBank("world-cup.json");
-
-  const result = validateBank(bank, { expectedRegular: 30, expectedHard: 20 });
-
-  assert.deepEqual(result.errors, []);
-  assert.equal(result.valid, true);
-  for (const q of bank) {
-    assert.equal(q.topic, "world-cup", `question "${q.id}" has topic "${q.topic}", expected "world-cup"`);
-    assert.match(q.id, /^wc-/, `question "${q.id}" does not start with the "wc-" prefix`);
-  }
-});
+    assert.deepEqual(result.errors, []);
+    assert.equal(result.valid, true);
+    const prefix = ID_PREFIX[topic.id];
+    for (const q of bank) {
+      assert.equal(q.topic, topic.id, `question "${q.id}" has topic "${q.topic}", expected "${topic.id}"`);
+      assert.ok(q.id.startsWith(prefix), `question "${q.id}" does not start with the "${prefix}" prefix`);
+    }
+  });
+}

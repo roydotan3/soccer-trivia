@@ -1,0 +1,752 @@
+[
+  {
+    "id": "ucl-r01",
+    "topic": "champions-league",
+    "difficulty": "regular",
+    "question": "איזו קבוצה זכתה בליגת האלופות בעונת 2025/26, בגמר שנערך במאי 2026?",
+    "answer": "פריז סן ז'רמן",
+    "distractors": [
+      "ליברפול",
+      "ריאל מדריד",
+      "באיירן מינכן"
+    ],
+    "detail": "הגמר הסתיים 1-1 אחרי הארכה, ופריז סן ז'רמן ניצחה את ארסנל בדו-קרב פנדלים.",
+    "source": "https://en.wikipedia.org/wiki/2026_UEFA_Champions_League_final",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ucl-r02",
+    "topic": "champions-league",
+    "difficulty": "regular",
+    "question": "איזו קבוצה זכתה הכי הרבה פעמים בתולדות התחרות?",
+    "answer": "ריאל מדריד",
+    "distractors": [
+      "מילאן",
+      "ליברפול",
+      "באיירן מינכן"
+    ],
+    "detail": "ריאל מדריד מחזיקה בשיא הזכיות, וגם בשיא ההגעות לגמר (נכון לאוקטובר 2026).",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0275-1541637ad1db-88aeeefefefd-1000--champions-league-winners-list-which-teams-have-won-the-eu/",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ucl-r03",
+    "topic": "champions-league",
+    "difficulty": "regular",
+    "question": "מי הוא מלך השערים של כל הזמנים בליגת האלופות (נכון לאוקטובר 2026)?",
+    "answer": "כריסטיאנו רונאלדו",
+    "distractors": [
+      "ליאו מסי",
+      "רוברט לבנדובסקי",
+      "קארים בנזמה"
+    ],
+    "detail": "רונאלדו מחזיק בשיא השערים של כל הזמנים בתחרות, והוא היה גם הראשון שהגיע ל-100 שערים, בהופעה ה-137 שלו (נכון לאוקטובר 2026).",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0257-0e910cf2494a-5185150de9d4-1000--champions-league-all-time-top-scorers-cristiano-ronaldo-/",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ucl-r04",
+    "topic": "champions-league",
+    "difficulty": "regular",
+    "question": "מי היה מלך השערים של ליגת האלופות בעונת 2025/26?",
+    "answer": "קיליאן אמבפה",
+    "distractors": [
+      "הארי קיין",
+      "ארלינג הולאנד",
+      "רוברט לבנדובסקי"
+    ],
+    "detail": "זה היה תואר מלך השערים השני של אמבפה בתחרות.",
+    "source": "https://www.uefa.com/uefachampionsleague/news/029d-1ec1670159ea-2d1882e6a430-1000--champions-league-top-scorer-kylian-mbappe/",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ucl-r05",
+    "topic": "champions-league",
+    "difficulty": "regular",
+    "question": "מה הכינוי של גביע ליגת האלופות?",
+    "answer": "אוזניים גדולות",
+    "distractors": [
+      "הקערה הגדולה",
+      "הכתר המלכותי",
+      "האגרטל הכחול"
+    ],
+    "detail": "הגביע, שעשוי כסף, מכונה באנגלית \"Ol' Big Ears\".",
+    "source": "https://www.planetfootball.com/champions-league/champions-league-trophy-worth-weight-size-history-who-keeps-it",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ucl-r06",
+    "topic": "champions-league",
+    "difficulty": "regular",
+    "question": "בגמר 2005 באיסטנבול הפסידה קבוצה 3-0 במחצית, השוותה 3-3 וניצחה בפנדלים. איזו קבוצה זו?",
+    "answer": "ליברפול",
+    "distractors": [
+      "צ'לסי",
+      "מנצ'סטר יונייטד",
+      "ארסנל"
+    ],
+    "detail": "ליברפול השוותה בתוך שש דקות בלבד בתחילת המחצית השנייה, ואז ניצחה 3-2 בפנדלים.",
+    "source": "https://en.wikipedia.org/wiki/2005_UEFA_Champions_League_final",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ucl-r07",
+    "topic": "champions-league",
+    "difficulty": "regular",
+    "question": "בשנת 2012 זכתה בגביע, לראשונה, קבוצה מלונדון. איזו קבוצה זו?",
+    "answer": "צ'לסי",
+    "distractors": [
+      "ארסנל",
+      "טוטנהאם",
+      "ווסטהאם"
+    ],
+    "detail": "צ'לסי ניצחה בפנדלים בגמר שנערך בעיר מינכן, והפכה לקבוצה הלונדונית הראשונה שזוכה בתחרות.",
+    "source": "https://en.wikipedia.org/wiki/2012_UEFA_Champions_League_final",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ucl-r08",
+    "topic": "champions-league",
+    "difficulty": "regular",
+    "question": "באיזו עיר נערך גמר ליגת האלופות של עונת 2025/26, במאי 2026?",
+    "answer": "בודפשט",
+    "distractors": [
+      "מינכן",
+      "איסטנבול",
+      "מדריד"
+    ],
+    "detail": "הגמר נערך בבודפשט, בירת הונגריה.",
+    "source": "https://en.wikipedia.org/wiki/2026_UEFA_Champions_League_final",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ucl-r09",
+    "topic": "champions-league",
+    "difficulty": "regular",
+    "question": "באיזו עיר ייערך הגמר של עונת 2026/27, ביוני 2027?",
+    "answer": "מדריד",
+    "distractors": [
+      "בודפשט",
+      "איסטנבול",
+      "לונדון"
+    ],
+    "detail": "הגמר מתוכנן ל-5 ביוני 2027 (נכון לאוקטובר 2026).",
+    "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_UEFA_Champions_League",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ucl-r10",
+    "topic": "champions-league",
+    "difficulty": "regular",
+    "question": "איזו קבוצה ישראלית הייתה הראשונה שהגיעה לשלב הבתים של ליגת האלופות, בעונת 2002/03?",
+    "answer": "מכבי חיפה",
+    "distractors": [
+      "מכבי תל אביב",
+      "הפועל תל אביב",
+      "הפועל באר שבע"
+    ],
+    "detail": "מכבי חיפה היא גם הקבוצה הישראלית היחידה שהגיעה לשלב הבתים שלוש פעמים (נכון לאוקטובר 2026).",
+    "source": "https://en.wikipedia.org/wiki/Israeli_football_clubs_in_international_competitions",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ucl-r11",
+    "topic": "champions-league",
+    "difficulty": "regular",
+    "question": "איזו קבוצה ישראלית הייתה הנציגה היחידה של ישראל בסבבי המוקדמות של ליגת האלופות בעונת 2026/27 (נכון לאוקטובר 2026)?",
+    "answer": "הפועל באר שבע",
+    "distractors": [
+      "מכבי חיפה",
+      "מכבי תל אביב",
+      "הפועל תל אביב"
+    ],
+    "detail": "הפועל באר שבע נכנסה בסבב המוקדמות השני, ואף קבוצה ישראלית אינה בשלב הליגה (נכון לאוקטובר 2026).",
+    "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_UEFA_Champions_League",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ucl-r12",
+    "topic": "champions-league",
+    "difficulty": "regular",
+    "question": "בגמר 2025 במינכן ניצחה פריז סן ז'רמן בתוצאה גבוהה במיוחד. את איזו קבוצה היא ניצחה?",
+    "answer": "אינטר",
+    "distractors": [
+      "ארסנל",
+      "ליברפול",
+      "ברצלונה"
+    ],
+    "detail": "זה היה הגביע הראשון בתולדות הקבוצה הצרפתית.",
+    "source": "https://en.wikipedia.org/wiki/2025_UEFA_Champions_League_final",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ucl-r13",
+    "topic": "champions-league",
+    "difficulty": "regular",
+    "question": "איך נקראה התחרות בעבר, לפני שהפכה לליגת האלופות?",
+    "answer": "גביע אירופה לאלופות",
+    "distractors": [
+      "גביע העולם לאלופות",
+      "ליגת העל האירופית",
+      "גביע המדינות של אירופה"
+    ],
+    "detail": "השם ליגת האלופות הגיע רק שנים רבות אחרי שהתחרות התחילה.",
+    "source": "https://en.wikipedia.org/wiki/1955%E2%80%9356_European_Cup",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ucl-r14",
+    "topic": "champions-league",
+    "difficulty": "regular",
+    "question": "בגמר 2024 באצטדיון ווימבלי ניצחה ריאל מדריד 2-0. את איזו קבוצה היא ניצחה?",
+    "answer": "בורוסיה דורטמונד",
+    "distractors": [
+      "ליברפול",
+      "אינטר",
+      "ארסנל"
+    ],
+    "detail": "הגמר הסתיים בניצחון 2-0.",
+    "source": "https://en.wikipedia.org/wiki/List_of_European_Cup_and_UEFA_Champions_League_finals",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ucl-r15",
+    "topic": "champions-league",
+    "difficulty": "regular",
+    "question": "איזו קבוצה אנגלית ניצחה 1-0 את אינטר בגמר 2023 באיסטנבול?",
+    "answer": "מנצ'סטר סיטי",
+    "distractors": [
+      "ליברפול",
+      "צ'לסי",
+      "ארסנל"
+    ],
+    "detail": "זו אחת הקבוצות שזכו בגביע פעם אחת בלבד (נכון לאוקטובר 2026).",
+    "source": "https://en.wikipedia.org/wiki/List_of_European_Cup_and_UEFA_Champions_League_finals",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ucl-r16",
+    "topic": "champions-league",
+    "difficulty": "regular",
+    "question": "איזו קבוצה אנגלית ניצחה 2-1 את באיירן מינכן בגמר 1999?",
+    "answer": "מנצ'סטר יונייטד",
+    "distractors": [
+      "ליברפול",
+      "צ'לסי",
+      "מנצ'סטר סיטי"
+    ],
+    "detail": "בגמר נכחו בערך 90 אלף צופים.",
+    "source": "https://en.wikipedia.org/wiki/List_of_European_Cup_and_UEFA_Champions_League_finals",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ucl-r17",
+    "topic": "champions-league",
+    "difficulty": "regular",
+    "question": "ההמנון של ליגת האלופות מבוסס על יצירה של איזה מלחין?",
+    "answer": "הנדל",
+    "distractors": [
+      "מוצרט",
+      "בטהובן",
+      "באך"
+    ],
+    "detail": "ההמנון מבוסס על היצירה \"Zadok the Priest\" של הנדל, וביצעה אותו התזמורת הפילהרמונית המלכותית.",
+    "source": "https://en.wikipedia.org/wiki/UEFA_Champions_League",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ucl-r18",
+    "topic": "champions-league",
+    "difficulty": "regular",
+    "question": "הקבוצות עם הכי הרבה נקודות בשלב הליגה עוקפות את הפלייאוף ועולות ישירות לאיזה שלב?",
+    "answer": "שמינית הגמר",
+    "distractors": [
+      "רבע הגמר",
+      "חצי הגמר",
+      "הגמר"
+    ],
+    "detail": "קבוצות שמסיימות באמצע הטבלה משחקות פלייאוף, ואלה שבתחתית הטבלה מודחות.",
+    "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_UEFA_Champions_League",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ucl-r19",
+    "topic": "champions-league",
+    "difficulty": "regular",
+    "question": "מי הבקיע מנקודת הפנדל את שער השוויון בגמר 2026?",
+    "answer": "עוסמאן דמבלה",
+    "distractors": [
+      "קאי האברץ",
+      "ויטיניה",
+      "אשרף חכימי"
+    ],
+    "detail": "דמבלה השווה מפנדל בדקה ה-65.",
+    "source": "https://en.wikipedia.org/wiki/2026_UEFA_Champions_League_final",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ucl-r20",
+    "topic": "champions-league",
+    "difficulty": "regular",
+    "question": "את מי ניצחה ארסנל בחצי הגמר של עונת 2025/26, בדרך לגמר?",
+    "answer": "אתלטיקו מדריד",
+    "distractors": [
+      "ריאל מדריד",
+      "ברצלונה",
+      "ליברפול"
+    ],
+    "detail": "ארסנל ניצחה 2-1 בסך הכול בשני המשחקים, והגיעה לגמר לראשונה מזה 20 שנה.",
+    "source": "https://www.cnn.com/2026/05/05/sport/live-news/champions-league-semifinal-atletico-madrid-arsenal",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ucl-r21",
+    "topic": "champions-league",
+    "difficulty": "regular",
+    "question": "איזו קבוצה ניצחה 1-0 את פריז סן ז'רמן בגמר 2020?",
+    "answer": "באיירן מינכן",
+    "distractors": [
+      "ריאל מדריד",
+      "ברצלונה",
+      "ליברפול"
+    ],
+    "detail": "בין 2020 ל-2023 הוכרעו ארבעה גמרים ברצף בתוצאה 1-0.",
+    "source": "https://en.wikipedia.org/wiki/List_of_European_Cup_and_UEFA_Champions_League_finals",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ucl-r22",
+    "topic": "champions-league",
+    "difficulty": "regular",
+    "question": "במחזור השני של עונת 2026/27 ניצחה פריז סן ז'רמן 4-2 קבוצה אנגלית. איזו קבוצה זו (נכון לאוקטובר 2026)?",
+    "answer": "מנצ'סטר סיטי",
+    "distractors": [
+      "ארסנל",
+      "ליברפול",
+      "אסטון וילה"
+    ],
+    "detail": "הקבוצה הצרפתית הייתה בין הקבוצות עם 6 נקודות אחרי שני משחקים (נכון לאוקטובר 2026).",
+    "source": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ucl-r23",
+    "topic": "champions-league",
+    "difficulty": "regular",
+    "question": "איזו קבוצה זכתה בליגת האלופות שבע פעמים (נכון לאוקטובר 2026)?",
+    "answer": "מילאן",
+    "distractors": [
+      "ליברפול",
+      "ברצלונה",
+      "אינטר"
+    ],
+    "detail": "מילאן הגיעה ל-11 גמרים, ושבעה מהם הסתיימו בזכייה.",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0275-1541637ad1db-88aeeefefefd-1000--champions-league-winners-list-which-teams-have-won-the-eu/",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ucl-r24",
+    "topic": "champions-league",
+    "difficulty": "regular",
+    "question": "מי נמצא במקום השני ברשימת מלכי השערים של כל הזמנים בליגת האלופות (נכון לאוקטובר 2026)?",
+    "answer": "ליאו מסי",
+    "distractors": [
+      "רוברט לבנדובסקי",
+      "קארים בנזמה",
+      "ארלינג הולאנד"
+    ],
+    "detail": "מסי הבקיע שמונה שלשות בתחרות (נכון לאוקטובר 2026).",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0257-0e910cf2494a-5185150de9d4-1000--champions-league-all-time-top-scorers-cristiano-ronaldo-/",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ucl-r25",
+    "topic": "champions-league",
+    "difficulty": "regular",
+    "question": "בגמר 2005 הובילה מילאן 3-0 במחצית. מי הבקיע את השער הראשון של הקבוצה השנייה בקאמבק?",
+    "answer": "סטיבן ג'רארד",
+    "distractors": [
+      "הרנן קרספו",
+      "אנדריי שבצ'נקו",
+      "פאולו מאלדיני"
+    ],
+    "detail": "ג'רארד כבש בדקה ה-54, ושני שערים נוספים נבקעו בתוך שש דקות.",
+    "source": "https://en.wikipedia.org/wiki/2005_UEFA_Champions_League_final",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ucl-r26",
+    "topic": "champions-league",
+    "difficulty": "regular",
+    "question": "איזה שחקן אנגלי הבקיע 14 שערים בליגת האלופות בעונת 2025/26, הכי הרבה ששחקן אנגלי הבקיע בעונה אחת?",
+    "answer": "הארי קיין",
+    "distractors": [
+      "בוקאיו סאקה",
+      "ג'וד בלינגהאם",
+      "אנתוני גורדון"
+    ],
+    "detail": "קיין היה גם השחקן האנגלי הראשון שהבקיע בשבעה משחקים רצופים בתחרות.",
+    "source": "https://www.uefa.com/uefachampionsleague/news/02a5-20a9b1d54074-d4a2c11aa589-1000--champions-league-2025-26-season-in-numbers/",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ucl-r27",
+    "topic": "champions-league",
+    "difficulty": "regular",
+    "question": "ב-2026 שיחקה ארסנל בגמר לראשונה מאז 2006. מול איזו קבוצה הפסידה אז בגמר?",
+    "answer": "ברצלונה",
+    "distractors": [
+      "ריאל מדריד",
+      "מילאן",
+      "ליברפול"
+    ],
+    "detail": "הגמר ב-2026 היה הראשון של ארסנל בתחרות מאז אותו גמר.",
+    "source": "https://en.wikipedia.org/wiki/2026_UEFA_Champions_League_final",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ucl-r28",
+    "topic": "champions-league",
+    "difficulty": "regular",
+    "question": "מי נבחר לשחקן המשחק בגמר 2026?",
+    "answer": "ויטיניה",
+    "distractors": [
+      "עוסמאן דמבלה",
+      "אשרף חכימי",
+      "קאי האברץ"
+    ],
+    "detail": "ויטיניה נבחר לשחקן המשחק בגמר שהוכרע בדו-קרב פנדלים.",
+    "source": "https://en.wikipedia.org/wiki/2026_UEFA_Champions_League_final",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ucl-r29",
+    "topic": "champions-league",
+    "difficulty": "regular",
+    "question": "איזו מהקבוצות האלה זכתה בליגת האלופות פעם אחת בלבד (נכון לאוקטובר 2026)?",
+    "answer": "אסטון וילה",
+    "distractors": [
+      "ליברפול",
+      "ברצלונה",
+      "אייאקס"
+    ],
+    "detail": "אסטון וילה נמצאת בין הקבוצות שיש להן זכייה אחת בלבד.",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0275-1541637ad1db-88aeeefefefd-1000--champions-league-winners-list-which-teams-have-won-the-eu/",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ucl-r30",
+    "topic": "champions-league",
+    "difficulty": "regular",
+    "question": "איזו קבוצה ניצחה 1-0 את ליברפול בגמר 2022?",
+    "answer": "ריאל מדריד",
+    "distractors": [
+      "מנצ'סטר סיטי",
+      "צ'לסי",
+      "באיירן מינכן"
+    ],
+    "detail": "הגמר הסתיים בשער יחיד.",
+    "source": "https://en.wikipedia.org/wiki/List_of_European_Cup_and_UEFA_Champions_League_finals",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ucl-h01",
+    "topic": "champions-league",
+    "difficulty": "hard",
+    "question": "בגמר 2025/26 הבקיע קאי האברץ מארסנל את השער הראשון במשחק. באיזו דקה?",
+    "answer": "הדקה ה-6",
+    "distractors": [
+      "הדקה ה-16",
+      "הדקה ה-26",
+      "הדקה ה-36"
+    ],
+    "detail": "האברץ העלה את ארסנל ליתרון מוקדם, אך הגמר הסתיים 1-1 אחרי הארכה.",
+    "source": "https://en.wikipedia.org/wiki/2026_UEFA_Champions_League_final",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ucl-h02",
+    "topic": "champions-league",
+    "difficulty": "hard",
+    "question": "מלך השערים של עונת 2025/26 קבע שיא של שערים בשלב הליגה. כמה שערים הבקיע בשלב הזה?",
+    "answer": "13 שערים",
+    "distractors": [
+      "11 שערים",
+      "12 שערים",
+      "14 שערים"
+    ],
+    "detail": "זה שיא של שחקן יחיד בשלב ליגה אחד (נכון לאוקטובר 2026).",
+    "source": "https://www.uefa.com/uefachampionsleague/news/02a5-20a9b1d54074-d4a2c11aa589-1000--champions-league-2025-26-season-in-numbers/",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ucl-h03",
+    "topic": "champions-league",
+    "difficulty": "hard",
+    "question": "מהו שיא השערים של שחקן אחד בעונה אחת של התחרות (נכון לאוקטובר 2026)?",
+    "answer": "17 שערים",
+    "distractors": [
+      "14 שערים",
+      "15 שערים",
+      "16 שערים"
+    ],
+    "detail": "השיא נקבע בעונת 2013/14, ב-11 משחקים בלבד (נכון לאוקטובר 2026).",
+    "source": "https://olympics.com/en/news/most-goals-single-uefa-champions-league-season",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ucl-h04",
+    "topic": "champions-league",
+    "difficulty": "hard",
+    "question": "ארלינג הולאנד הגיע ל-50 שערים בליגת האלופות מהר מכל שחקן אחר. בכמה משחקים עשה זאת?",
+    "answer": "49 משחקים",
+    "distractors": [
+      "40 משחקים",
+      "55 משחקים",
+      "60 משחקים"
+    ],
+    "detail": "זה השיא למהירות ההגעה לאבן הדרך הזאת, והוא נקבע בעונת 2025/26 (נכון לאוקטובר 2026).",
+    "source": "https://www.uefa.com/uefachampionsleague/news/02a5-20a9b1d54074-d4a2c11aa589-1000--champions-league-2025-26-season-in-numbers/",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ucl-h05",
+    "topic": "champions-league",
+    "difficulty": "hard",
+    "question": "בעונת 2025/26 הפך שחקן לצעיר ביותר שהופיע אי פעם בתחרות. בן כמה היה?",
+    "answer": "15 שנים",
+    "distractors": [
+      "16 שנים",
+      "17 שנים",
+      "18 שנים"
+    ],
+    "detail": "הוא היה בן 15 שנים ו-308 ימים (נכון לאוקטובר 2026).",
+    "source": "https://www.uefa.com/uefachampionsleague/news/02a5-20a9b1d54074-d4a2c11aa589-1000--champions-league-2025-26-season-in-numbers/",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ucl-h06",
+    "topic": "champions-league",
+    "difficulty": "hard",
+    "question": "מעונת 2024/25 החליף שלב הליגה את שלב הבתים. כמה קבוצות משתתפות בשלב הליגה?",
+    "answer": "36 קבוצות",
+    "distractors": [
+      "32 קבוצות",
+      "24 קבוצות",
+      "48 קבוצות"
+    ],
+    "detail": "זה ארבע קבוצות יותר מאשר בשלב הבתים הישן.",
+    "source": "https://de.uefa.com/uefachampionsleague/news/028f-1b7f80216368-4c26e95cc15b-1000--uefa-club-competitions-2024-25-onwards-new-league-phase-",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ucl-h07",
+    "topic": "champions-league",
+    "difficulty": "hard",
+    "question": "כמה משחקים משחקת כל קבוצה בשלב הליגה?",
+    "answer": "8 משחקים",
+    "distractors": [
+      "6 משחקים",
+      "10 משחקים",
+      "12 משחקים"
+    ],
+    "detail": "כל קבוצה פוגשת 8 יריבות שונות: ארבעה משחקי בית וארבעה משחקי חוץ.",
+    "source": "https://de.uefa.com/uefachampionsleague/news/028f-1b7f80216368-4c26e95cc15b-1000--uefa-club-competitions-2024-25-onwards-new-league-phase-",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ucl-h08",
+    "topic": "champions-league",
+    "difficulty": "hard",
+    "question": "באיזו עונה קיבלה התחרות לראשונה את השם ליגת האלופות?",
+    "answer": "1992/93",
+    "distractors": [
+      "1955/56",
+      "1990/91",
+      "1999/00"
+    ],
+    "detail": "שלב בתים נוסף כבר ב-1991, והשם החדש הגיע בעונה שאחר כך.",
+    "source": "https://en.wikipedia.org/wiki/UEFA_Champions_League",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ucl-h09",
+    "topic": "champions-league",
+    "difficulty": "hard",
+    "question": "כמה קבוצות לקחו חלק בעונה הראשונה של התחרות, 1955/56?",
+    "answer": "16 קבוצות",
+    "distractors": [
+      "8 קבוצות",
+      "24 קבוצות",
+      "32 קבוצות"
+    ],
+    "detail": "הרעיון לתחרות נולד בפריז ב-1955.",
+    "source": "https://en.wikipedia.org/wiki/1955%E2%80%9356_European_Cup",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ucl-h10",
+    "topic": "champions-league",
+    "difficulty": "hard",
+    "question": "הגמר הכי מבקיע בתולדות התחרות נערך ב-1960 בגלזגו. כמה שערים נבקעו בו בסך הכול?",
+    "answer": "10 שערים",
+    "distractors": [
+      "8 שערים",
+      "9 שערים",
+      "12 שערים"
+    ],
+    "detail": "הגמר הסתיים 7-3, וזה עדיין הגמר עם הכי הרבה שערים (נכון לאוקטובר 2026).",
+    "source": "https://en.wikipedia.org/wiki/List_of_European_Cup_and_UEFA_Champions_League_finals",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ucl-h11",
+    "topic": "champions-league",
+    "difficulty": "hard",
+    "question": "יובנטוס הגיעה ל-9 גמרים בתולדות התחרות. בכמה מהם ניצחה?",
+    "answer": "בשניים",
+    "distractors": [
+      "בשלושה",
+      "בארבעה",
+      "בחמישה"
+    ],
+    "detail": "יובנטוס הפסידה בשבעה מתוך תשעת הגמרים שלה (נכון לאוקטובר 2026).",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0275-1541637ad1db-88aeeefefefd-1000--champions-league-winners-list-which-teams-have-won-the-eu/",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ucl-h12",
+    "topic": "champions-league",
+    "difficulty": "hard",
+    "question": "קבוצות מאיזו מדינה זכו בהכי הרבה גביעים בסך הכול, וכמה?",
+    "answer": "ספרד, 20 גביעים",
+    "distractors": [
+      "אנגליה, 20 גביעים",
+      "איטליה, 20 גביעים",
+      "ספרד, 15 גביעים"
+    ],
+    "detail": "אחרי ספרד מגיעה אנגליה עם 15 גביעים ואיטליה עם 12 (נכון לאוקטובר 2026).",
+    "source": "https://en.wikipedia.org/wiki/UEFA_Champions_League",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ucl-h13",
+    "topic": "champions-league",
+    "difficulty": "hard",
+    "question": "בעונת 2025/26 קבעה אנגליה שיא חסר תקדים של נציגות בתחרות. כמה קבוצות אנגליות השתתפו בה?",
+    "answer": "6 קבוצות",
+    "distractors": [
+      "4 קבוצות",
+      "5 קבוצות",
+      "7 קבוצות"
+    ],
+    "detail": "זו הייתה העונה הראשונה אי פעם עם שש קבוצות ממדינה אחת.",
+    "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_UEFA_Champions_League",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ucl-h14",
+    "topic": "champions-league",
+    "difficulty": "hard",
+    "question": "מהו ההפרש הגדול ביותר שהוכרע בו גמר בתולדות התחרות (נכון לאוקטובר 2026)?",
+    "answer": "5 שערים",
+    "distractors": [
+      "3 שערים",
+      "4 שערים",
+      "6 שערים"
+    ],
+    "detail": "ההפרש הקודם, 4 שערים, נרשם כמה פעמים לפני כן (נכון לאוקטובר 2026).",
+    "source": "https://en.wikipedia.org/wiki/2025_UEFA_Champions_League_final",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ucl-h15",
+    "topic": "champions-league",
+    "difficulty": "hard",
+    "question": "גמר 2012 הסתיים ב-1-1 והוכרע בפנדלים. מה הייתה תוצאת הפנדלים?",
+    "answer": "4-3",
+    "distractors": [
+      "5-4",
+      "3-2",
+      "5-3"
+    ],
+    "detail": "הגמר נערך באצטדיון הביתי של אחת הקבוצות, ושני השערים נבקעו בדקות ה-83 וה-88.",
+    "source": "https://en.wikipedia.org/wiki/2012_UEFA_Champions_League_final",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ucl-h16",
+    "topic": "champions-league",
+    "difficulty": "hard",
+    "question": "מי הבקיע שני שערים בגמר 2025?",
+    "answer": "דזירה דואה",
+    "distractors": [
+      "אשרף חכימי",
+      "עוסמאן דמבלה",
+      "ויטיניה"
+    ],
+    "detail": "דואה כבש בדקות ה-20 וה-63.",
+    "source": "https://en.wikipedia.org/wiki/2025_UEFA_Champions_League_final",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ucl-h17",
+    "topic": "champions-league",
+    "difficulty": "hard",
+    "question": "מי הבקיע שני שערים לפני המחצית בגמר 2005?",
+    "answer": "הרנן קרספו",
+    "distractors": [
+      "פאולו מאלדיני",
+      "אנדריי שבצ'נקו",
+      "סטיבן ג'רארד"
+    ],
+    "detail": "קרספו כבש בדקות ה-39 וה-44, ומאלדיני הבקיע בדקה הראשונה.",
+    "source": "https://en.wikipedia.org/wiki/2005_UEFA_Champions_League_final",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ucl-h18",
+    "topic": "champions-league",
+    "difficulty": "hard",
+    "question": "מה גובהו של גביע ליגת האלופות?",
+    "answer": "73.5 ס\"מ",
+    "distractors": [
+      "50 ס\"מ",
+      "60 ס\"מ",
+      "90 ס\"מ"
+    ],
+    "detail": "הגביע שוקל 7.5 ק\"ג.",
+    "source": "https://www.planetfootball.com/champions-league/champions-league-trophy-worth-weight-size-history-who-keeps-it",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ucl-h19",
+    "topic": "champions-league",
+    "difficulty": "hard",
+    "question": "מי נמצא במקום השני ברשימת השחקנים עם הכי הרבה הופעות בתחרות (נכון לאוקטובר 2026)?",
+    "answer": "איקר קסיאס",
+    "distractors": [
+      "ליאו מסי",
+      "רוברט לבנדובסקי",
+      "ראול"
+    ],
+    "detail": "לקסיאס יש 177 הופעות (נכון לאוקטובר 2026).",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a10f58015-92c648e6303d-1000--who-has-played-100-games/",
+    "asOf": "2026-10"
+  },
+  {
+    "id": "ucl-h20",
+    "topic": "champions-league",
+    "difficulty": "hard",
+    "question": "באילו שלוש שפות כתובות המילים של ההמנון של ליגת האלופות?",
+    "answer": "אנגלית, גרמנית וצרפתית",
+    "distractors": [
+      "אנגלית, ספרדית ואיטלקית",
+      "אנגלית, צרפתית ואיטלקית",
+      "גרמנית, ספרדית וצרפתית"
+    ],
+    "detail": "המנגינה של ההמנון מבוססת על יצירה קלאסית.",
+    "source": "https://en.wikipedia.org/wiki/UEFA_Champions_League",
+    "asOf": "2026-10"
+  }
+]
