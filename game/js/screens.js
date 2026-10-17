@@ -500,7 +500,7 @@ export function renderQuestionScreen(container, viewModel, { onSelect, onNext, o
 
 export function renderResultsScreen(
   container,
-  { topicLabel, score, stars, isNewBest },
+  { name, topicLabel, score, stars, isNewBest, previousBest },
   { onPlayAgain, onChooseTopic },
 ) {
   container.innerHTML = "";
@@ -513,6 +513,16 @@ export function renderResultsScreen(
   sunburst.className = "results-sunburst";
   sunburst.setAttribute("aria-hidden", "true");
   screen.appendChild(sunburst);
+
+  const intro = document.createElement("div");
+  intro.className = "results-intro";
+  intro.textContent = `סיימת סיבוב, ${name}!`;
+  screen.appendChild(intro);
+
+  const headline = document.createElement("h1");
+  headline.className = "results-headline";
+  headline.textContent = "קיבלת מדבקה!";
+  screen.appendChild(headline);
 
   const card = document.createElement("div");
   card.className = "sticker-card";
@@ -556,6 +566,15 @@ export function renderResultsScreen(
     stamp.className = "new-best-stamp";
     stamp.textContent = "שיא אישי חדש!";
     screen.appendChild(stamp);
+
+    // Only meaningful when there WAS a previous best to beat — the very
+    // first completed round on a topic has nothing to compare against.
+    if (typeof previousBest === "number") {
+      const previousBestLine = document.createElement("div");
+      previousBestLine.className = "results-previous-best";
+      previousBestLine.innerHTML = `השיא הקודם שלך: <span class="ltr">${previousBest}/10</span>`;
+      screen.appendChild(previousBestLine);
+    }
   }
 
   const actions = document.createElement("div");

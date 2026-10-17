@@ -689,6 +689,34 @@ h3 {
   pointer-events: none;
 }
 
+.results-intro {
+  position: relative;
+  z-index: 1;
+  margin-top: 54px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.results-headline {
+  position: relative;
+  z-index: 1;
+  margin: 2px 0 0;
+  font-family: "Secular One", sans-serif;
+  font-weight: 400;
+  font-size: 44px;
+  color: #fff;
+}
+
+.results-previous-best {
+  position: relative;
+  z-index: 1;
+  margin-top: 12px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+}
+
 .sticker-card {
   position: relative;
   z-index: 1;

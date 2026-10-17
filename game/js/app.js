@@ -116,7 +116,6 @@ async function pickTopic(topicId) {
 
     state.topicId = topicId;
     state.bank = bank;
-    state.previousBest = store.getBest(topicId);
     startRound();
   } catch {
     showLoadFailure();
@@ -124,6 +123,10 @@ async function pickTopic(topicId) {
 }
 
 function startRound() {
+  // Captured fresh at the start of every round (not just the first pick),
+  // so "עוד סיבוב" compares against the best as of right before THIS
+  // round, not a stale value from before the previous round.
+  state.previousBest = store.getBest(state.topicId);
   state.round = buildRound(state.bank, store.getSeenIds(state.topicId));
   state.index = 0;
   state.selectedIndex = null;
@@ -211,6 +214,7 @@ function finishRound() {
   renderResultsScreen(
     container,
     {
+      name: store.getName(),
       topicLabel: topic ? topic.label : "",
       score,
       stars: starsForScore(score),
