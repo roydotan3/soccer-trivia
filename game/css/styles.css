@@ -1,0 +1,569 @@
+/* Soccer Trivia Game — "sticker album" visual direction (B).
+   Palette: cream paper #F3F0E8, cobalt #2340E0, poster yellow #FFC62E,
+   coral red #FF5436, ink #15172A. Display font Secular One, body Assistant.
+   Thick ink borders, hard (non-blurred) drop shadows, slight card rotation,
+   no emoji — inline stroke SVG icons only. */
+
+:root {
+  --cream: #f3f0e8;
+  --cobalt: #2340e0;
+  --yellow: #ffc62e;
+  --coral: #ff5436;
+  --ink: #15172a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--cobalt);
+  background-image: radial-gradient(circle, rgba(255, 255, 255, 0.08) 1.5px, transparent 1.5px);
+  background-size: 18px 18px;
+  font-family: "Assistant", sans-serif;
+  color: var(--ink);
+  min-height: 100vh;
+}
+
+/* The single rule that makes this both a full-width phone layout and a
+   centered desktop "album on a table" column — no media query needed. */
+#app {
+  width: 100%;
+  max-width: 440px;
+  margin: 0 auto;
+  min-height: 100vh;
+  background: var(--cream);
+  position: relative;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.25);
+  border-inline-start: 6px solid var(--ink); /* book-spine edge on desktop */
+  overflow-x: hidden;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Secular One", sans-serif;
+  color: var(--ink);
+  margin: 0;
+}
+
+.ltr {
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+
+.screen {
+  padding: 24px 20px 32px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* ---------- Buttons ---------- */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 14px 24px;
+  border: 3px solid var(--ink);
+  border-radius: 14px;
+  background: var(--yellow);
+  color: var(--ink);
+  font-family: "Secular One", sans-serif;
+  font-size: 18px;
+  box-shadow: 4px 4px 0 var(--ink);
+  transition: transform 0.05s ease, box-shadow 0.05s ease;
+}
+
+.btn:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: 5px 5px 0 var(--ink);
+}
+
+.btn:active {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0 var(--ink);
+}
+
+.btn:focus-visible {
+  outline: 3px solid var(--cobalt);
+  outline-offset: 2px;
+}
+
+.btn-primary {
+  background: var(--yellow);
+}
+
+.btn-secondary {
+  background: var(--cream);
+}
+
+.btn-coral {
+  background: var(--coral);
+  color: var(--cream);
+}
+
+.btn-block {
+  display: flex;
+  width: 100%;
+}
+
+/* ---------- Name screen ---------- */
+
+.name-screen {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.name-card {
+  background: #fff;
+  border: 4px solid var(--ink);
+  border-radius: 18px;
+  box-shadow: 6px 6px 0 var(--ink);
+  padding: 32px 24px;
+  transform: rotate(-1deg);
+  width: 100%;
+}
+
+.name-card h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.name-input {
+  width: 100%;
+  padding: 12px 14px;
+  font-size: 18px;
+  font-family: "Assistant", sans-serif;
+  border: 3px solid var(--ink);
+  border-radius: 10px;
+  background: var(--cream);
+  text-align: center;
+}
+
+.name-input:focus-visible {
+  outline: 3px solid var(--cobalt);
+  outline-offset: 2px;
+}
+
+.field-error {
+  color: var(--coral);
+  font-size: 14px;
+  font-weight: 700;
+  min-height: 20px;
+  margin-top: 4px;
+}
+
+.trust-line {
+  color: var(--ink);
+  opacity: 0.7;
+  font-size: 13px;
+  margin-top: 16px;
+}
+
+/* ---------- Home screen ---------- */
+
+.home-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.home-header h1 {
+  font-size: 26px;
+}
+
+.topic-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin-bottom: 20px;
+}
+
+.sticker {
+  position: relative;
+  background: #fff;
+  border: 3px solid var(--ink);
+  border-radius: 16px;
+  box-shadow: 4px 4px 0 var(--ink);
+  padding: 16px 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  transform: rotate(-2deg);
+}
+
+.sticker:nth-child(even) {
+  transform: rotate(2deg);
+}
+
+.sticker-live {
+  background: var(--cream);
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  font: inherit;
+  color: inherit;
+}
+
+.sticker-icon {
+  width: 48px;
+  height: 48px;
+}
+
+.sticker-label {
+  font-family: "Secular One", sans-serif;
+  font-size: 15px;
+}
+
+.sticker-sublabel {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.sticker-status {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--cobalt);
+}
+
+.sticker-soon {
+  border: 3px dashed var(--ink);
+  background: transparent;
+  box-shadow: none;
+  opacity: 0.6;
+  transform: rotate(0deg);
+}
+
+.sticker-soon .sticker-status {
+  color: var(--ink);
+}
+
+.stats-panel {
+  background: var(--ink);
+  color: var(--cream);
+  border-radius: 16px;
+  padding: 16px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  gap: 8px;
+  margin-top: auto;
+}
+
+.stat-value {
+  font-family: "Secular One", sans-serif;
+  font-size: 24px;
+  color: var(--yellow);
+}
+
+.stat-label {
+  font-size: 12px;
+  opacity: 0.85;
+}
+
+/* ---------- Question screen ---------- */
+
+.question-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.exit-btn {
+  background: transparent;
+  border: 2px solid var(--ink);
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.progress {
+  font-family: "Secular One", sans-serif;
+  font-size: 14px;
+  background: #fff;
+  border: 2px solid var(--ink);
+  border-radius: 20px;
+  padding: 4px 12px;
+}
+
+.difficulty-badge {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 20px;
+  border: 2px solid var(--ink);
+}
+
+.difficulty-regular {
+  background: var(--yellow);
+}
+
+.difficulty-hard {
+  background: var(--coral);
+  color: var(--cream);
+}
+
+.question-card {
+  background: #fff;
+  border: 4px solid var(--ink);
+  border-radius: 16px;
+  box-shadow: 5px 5px 0 var(--ink);
+  padding: 20px;
+  margin-bottom: 16px;
+  transform: rotate(-0.5deg);
+}
+
+.question-text {
+  font-family: "Secular One", sans-serif;
+  font-size: 19px;
+  line-height: 1.4;
+}
+
+.options-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+  margin: 0 0 16px;
+  padding: 0;
+}
+
+.option-btn {
+  width: 100%;
+  text-align: start;
+  padding: 14px 16px;
+  border: 3px solid var(--ink);
+  border-radius: 12px;
+  background: #fff;
+  font-size: 16px;
+  box-shadow: 3px 3px 0 var(--ink);
+}
+
+.option-btn:focus-visible {
+  outline: 3px solid var(--cobalt);
+  outline-offset: 2px;
+}
+
+.option-btn:disabled {
+  cursor: default;
+}
+
+.option-correct {
+  background: var(--cobalt);
+  color: #fff;
+}
+
+.option-wrong-pick {
+  background: var(--coral);
+  color: #fff;
+  text-decoration: line-through;
+}
+
+.option-pick-tag {
+  display: inline-block;
+  margin-inline-start: 8px;
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/* The "torn tape" feedback note */
+.feedback-note {
+  position: relative;
+  background: var(--yellow);
+  border: 3px solid var(--ink);
+  border-radius: 4px;
+  padding: 14px 16px;
+  margin-bottom: 16px;
+  transform: rotate(1deg);
+  font-weight: 700;
+}
+
+.feedback-note::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%) rotate(-2deg);
+  width: 60px;
+  height: 18px;
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.feedback-correct {
+  background: var(--yellow);
+}
+
+.feedback-wrong {
+  background: var(--cream);
+}
+
+.feedback-detail {
+  margin-top: 8px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.next-btn-row {
+  margin-top: auto;
+}
+
+/* Exit-confirm inline panel */
+.exit-confirm-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(21, 23, 42, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  z-index: 10;
+}
+
+.exit-confirm-card {
+  background: #fff;
+  border: 4px solid var(--ink);
+  border-radius: 16px;
+  box-shadow: 6px 6px 0 var(--ink);
+  padding: 24px;
+  text-align: center;
+  max-width: 320px;
+}
+
+.exit-confirm-card p {
+  font-family: "Secular One", sans-serif;
+  font-size: 18px;
+  margin: 0 0 18px;
+}
+
+.exit-confirm-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+/* ---------- Results screen ---------- */
+
+.results-screen {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.sticker-card {
+  position: relative;
+  background: #fff;
+  border: 4px solid var(--ink);
+  border-radius: 18px;
+  box-shadow: 6px 6px 0 var(--ink);
+  padding: 32px 24px;
+  transform: rotate(-1.5deg);
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Peeled-corner effect */
+.sticker-card::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  inset-inline-end: 0;
+  width: 46px;
+  height: 46px;
+  background: linear-gradient(135deg, transparent 50%, var(--cream) 50%);
+  border-inline-start: 3px solid var(--ink);
+  border-bottom: 3px solid var(--ink);
+}
+
+.results-score {
+  font-family: "Secular One", sans-serif;
+  font-size: 48px;
+  color: var(--cobalt);
+}
+
+.results-topic-label {
+  font-size: 15px;
+  opacity: 0.75;
+  margin-bottom: 8px;
+}
+
+.stars-row {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin: 14px 0;
+}
+
+.star {
+  width: 36px;
+  height: 36px;
+}
+
+.miss-banner {
+  font-family: "Secular One", sans-serif;
+  color: var(--coral);
+  font-size: 18px;
+  margin-top: 8px;
+}
+
+.new-best-stamp {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 6px 16px;
+  background: var(--coral);
+  color: #fff;
+  border: 3px solid var(--ink);
+  border-radius: 20px;
+  font-family: "Secular One", sans-serif;
+  font-size: 14px;
+  transform: rotate(-3deg);
+}
+
+.results-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+}
+
+/* ---------- Load failure ---------- */
+
+.load-failure {
+  margin: auto;
+  text-align: center;
+  padding: 24px;
+}
+
+.load-failure p {
+  font-family: "Secular One", sans-serif;
+  font-size: 18px;
+  color: var(--coral);
+}
