@@ -1,6 +1,11 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import { fileURLToPath } from "node:url";
 import { validateBank } from "../tools/validate-bank.js";
+
+const dataPath = (name) => fileURLToPath(new URL(`../game/data/${name}`, import.meta.url));
+const loadBank = (name) => JSON.parse(readFileSync(dataPath(name), "utf8"));
 
 // A well-formed question. Tests override single fields to break exactly one rule.
 const good = (overrides = {}) => ({
@@ -104,4 +109,30 @@ test("passes a well-formed 30-regular + 20-hard bank with no errors", () => {
   const result = validateBank(bank);
 
   assert.deepEqual(result, { valid: true, errors: [] });
+});
+
+test("the real israeli-football.json content bank is valid (30 regular + 20 hard, internally consistent topic/id prefix)", () => {
+  const bank = loadBank("israeli-football.json");
+
+  const result = validateBank(bank, { expectedRegular: 30, expectedHard: 20 });
+
+  assert.deepEqual(result.errors, []);
+  assert.equal(result.valid, true);
+  for (const q of bank) {
+    assert.equal(q.topic, "israeli-football", `question "${q.id}" has topic "${q.topic}", expected "israeli-football"`);
+    assert.match(q.id, /^isr-/, `question "${q.id}" does not start with the "isr-" prefix`);
+  }
+});
+
+test("the real world-cup.json content bank is valid (30 regular + 20 hard, internally consistent topic/id prefix)", () => {
+  const bank = loadBank("world-cup.json");
+
+  const result = validateBank(bank, { expectedRegular: 30, expectedHard: 20 });
+
+  assert.deepEqual(result.errors, []);
+  assert.equal(result.valid, true);
+  for (const q of bank) {
+    assert.equal(q.topic, "world-cup", `question "${q.id}" has topic "${q.topic}", expected "world-cup"`);
+    assert.match(q.id, /^wc-/, `question "${q.id}" does not start with the "wc-" prefix`);
+  }
 });
