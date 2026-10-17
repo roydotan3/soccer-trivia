@@ -1,0 +1,8 @@
+{
+  "name": "soccer-trivia-game",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  }
+}
