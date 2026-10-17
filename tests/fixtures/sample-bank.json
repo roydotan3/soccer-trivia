@@ -1,0 +1,332 @@
+[
+  {
+    "id": "r1",
+    "topic": "world-cup",
+    "difficulty": "regular",
+    "question": "Synthetic regular question #1: which fictional club won test tournament 1?",
+    "answer": "Test Club regular 1 Answer",
+    "distractors": [
+      "Test Club regular 1 Distractor A",
+      "Test Club regular 1 Distractor B",
+      "Test Club regular 1 Distractor C"
+    ],
+    "detail": "Placeholder explanation for synthetic regular question #1, used only in tests.",
+    "source": "https://example.test/fixtures/regular-1",
+    "asOf": "2026-01"
+  },
+  {
+    "id": "r2",
+    "topic": "transfers",
+    "difficulty": "regular",
+    "question": "Synthetic regular question #2: which fictional club won test tournament 2?",
+    "answer": "Test Club regular 2 Answer",
+    "distractors": [
+      "Test Club regular 2 Distractor A",
+      "Test Club regular 2 Distractor B",
+      "Test Club regular 2 Distractor C"
+    ],
+    "detail": "Placeholder explanation for synthetic regular question #2, used only in tests.",
+    "source": "https://example.test/fixtures/regular-2",
+    "asOf": "2026-01"
+  },
+  {
+    "id": "r3",
+    "topic": "records",
+    "difficulty": "regular",
+    "question": "Synthetic regular question #3: which fictional club won test tournament 3?",
+    "answer": "Test Club regular 3 Answer",
+    "distractors": [
+      "Test Club regular 3 Distractor A",
+      "Test Club regular 3 Distractor B",
+      "Test Club regular 3 Distractor C"
+    ],
+    "detail": "Placeholder explanation for synthetic regular question #3, used only in tests.",
+    "source": "https://example.test/fixtures/regular-3",
+    "asOf": "2026-01"
+  },
+  {
+    "id": "r4",
+    "topic": "clubs",
+    "difficulty": "regular",
+    "question": "Synthetic regular question #4: which fictional club won test tournament 4?",
+    "answer": "Test Club regular 4 Answer",
+    "distractors": [
+      "Test Club regular 4 Distractor A",
+      "Test Club regular 4 Distractor B",
+      "Test Club regular 4 Distractor C"
+    ],
+    "detail": "Placeholder explanation for synthetic regular question #4, used only in tests.",
+    "source": "https://example.test/fixtures/regular-4",
+    "asOf": "2026-01"
+  },
+  {
+    "id": "r5",
+    "topic": "league",
+    "difficulty": "regular",
+    "question": "Synthetic regular question #5: which fictional club won test tournament 5?",
+    "answer": "Test Club regular 5 Answer",
+    "distractors": [
+      "Test Club regular 5 Distractor A",
+      "Test Club regular 5 Distractor B",
+      "Test Club regular 5 Distractor C"
+    ],
+    "detail": "Placeholder explanation for synthetic regular question #5, used only in tests.",
+    "source": "https://example.test/fixtures/regular-5",
+    "asOf": "2026-01"
+  },
+  {
+    "id": "r6",
+    "topic": "world-cup",
+    "difficulty": "regular",
+    "question": "Synthetic regular question #6: which fictional club won test tournament 6?",
+    "answer": "Test Club regular 6 Answer",
+    "distractors": [
+      "Test Club regular 6 Distractor A",
+      "Test Club regular 6 Distractor B",
+      "Test Club regular 6 Distractor C"
+    ],
+    "detail": "Placeholder explanation for synthetic regular question #6, used only in tests.",
+    "source": "https://example.test/fixtures/regular-6",
+    "asOf": "2026-01"
+  },
+  {
+    "id": "r7",
+    "topic": "transfers",
+    "difficulty": "regular",
+    "question": "Synthetic regular question #7: which fictional club won test tournament 7?",
+    "answer": "Test Club regular 7 Answer",
+    "distractors": [
+      "Test Club regular 7 Distractor A",
+      "Test Club regular 7 Distractor B",
+      "Test Club regular 7 Distractor C"
+    ],
+    "detail": "Placeholder explanation for synthetic regular question #7, used only in tests.",
+    "source": "https://example.test/fixtures/regular-7",
+    "asOf": "2026-01"
+  },
+  {
+    "id": "r8",
+    "topic": "records",
+    "difficulty": "regular",
+    "question": "Synthetic regular question #8: which fictional club won test tournament 8?",
+    "answer": "Test Club regular 8 Answer",
+    "distractors": [
+      "Test Club regular 8 Distractor A",
+      "Test Club regular 8 Distractor B",
+      "Test Club regular 8 Distractor C"
+    ],
+    "detail": "Placeholder explanation for synthetic regular question #8, used only in tests.",
+    "source": "https://example.test/fixtures/regular-8",
+    "asOf": "2026-01"
+  },
+  {
+    "id": "r9",
+    "topic": "clubs",
+    "difficulty": "regular",
+    "question": "Synthetic regular question #9: which fictional club won test tournament 9?",
+    "answer": "Test Club regular 9 Answer",
+    "distractors": [
+      "Test Club regular 9 Distractor A",
+      "Test Club regular 9 Distractor B",
+      "Test Club regular 9 Distractor C"
+    ],
+    "detail": "Placeholder explanation for synthetic regular question #9, used only in tests.",
+    "source": "https://example.test/fixtures/regular-9",
+    "asOf": "2026-01"
+  },
+  {
+    "id": "r10",
+    "topic": "league",
+    "difficulty": "regular",
+    "question": "Synthetic regular question #10: which fictional club won test tournament 10?",
+    "answer": "Test Club regular 10 Answer",
+    "distractors": [
+      "Test Club regular 10 Distractor A",
+      "Test Club regular 10 Distractor B",
+      "Test Club regular 10 Distractor C"
+    ],
+    "detail": "Placeholder explanation for synthetic regular question #10, used only in tests.",
+    "source": "https://example.test/fixtures/regular-10",
+    "asOf": "2026-01"
+  },
+  {
+    "id": "r11",
+    "topic": "world-cup",
+    "difficulty": "regular",
+    "question": "Synthetic regular question #11: which fictional club won test tournament 11?",
+    "answer": "Test Club regular 11 Answer",
+    "distractors": [
+      "Test Club regular 11 Distractor A",
+      "Test Club regular 11 Distractor B",
+      "Test Club regular 11 Distractor C"
+    ],
+    "detail": "Placeholder explanation for synthetic regular question #11, used only in tests.",
+    "source": "https://example.test/fixtures/regular-11",
+    "asOf": "2026-01"
+  },
+  {
+    "id": "r12",
+    "topic": "transfers",
+    "difficulty": "regular",
+    "question": "Synthetic regular question #12: which fictional club won test tournament 12?",
+    "answer": "Test Club regular 12 Answer",
+    "distractors": [
+      "Test Club regular 12 Distractor A",
+      "Test Club regular 12 Distractor B",
+      "Test Club regular 12 Distractor C"
+    ],
+    "detail": "Placeholder explanation for synthetic regular question #12, used only in tests.",
+    "source": "https://example.test/fixtures/regular-12",
+    "asOf": "2026-01"
+  },
+  {
+    "id": "r13",
+    "topic": "records",
+    "difficulty": "regular",
+    "question": "Synthetic regular question #13: which fictional club won test tournament 13?",
+    "answer": "Test Club regular 13 Answer",
+    "distractors": [
+      "Test Club regular 13 Distractor A",
+      "Test Club regular 13 Distractor B",
+      "Test Club regular 13 Distractor C"
+    ],
+    "detail": "Placeholder explanation for synthetic regular question #13, used only in tests.",
+    "source": "https://example.test/fixtures/regular-13",
+    "asOf": "2026-01"
+  },
+  {
+    "id": "r14",
+    "topic": "clubs",
+    "difficulty": "regular",
+    "question": "Synthetic regular question #14: which fictional club won test tournament 14?",
+    "answer": "Test Club regular 14 Answer",
+    "distractors": [
+      "Test Club regular 14 Distractor A",
+      "Test Club regular 14 Distractor B",
+      "Test Club regular 14 Distractor C"
+    ],
+    "detail": "Placeholder explanation for synthetic regular question #14, used only in tests.",
+    "source": "https://example.test/fixtures/regular-14",
+    "asOf": "2026-01"
+  },
+  {
+    "id": "h1",
+    "topic": "world-cup",
+    "difficulty": "hard",
+    "question": "Synthetic hard question #1: which fictional club won test tournament 1?",
+    "answer": "Test Club hard 1 Answer",
+    "distractors": [
+      "Test Club hard 1 Distractor A",
+      "Test Club hard 1 Distractor B",
+      "Test Club hard 1 Distractor C"
+    ],
+    "detail": "Placeholder explanation for synthetic hard question #1, used only in tests.",
+    "source": "https://example.test/fixtures/hard-1",
+    "asOf": "2026-01"
+  },
+  {
+    "id": "h2",
+    "topic": "transfers",
+    "difficulty": "hard",
+    "question": "Synthetic hard question #2: which fictional club won test tournament 2?",
+    "answer": "Test Club hard 2 Answer",
+    "distractors": [
+      "Test Club hard 2 Distractor A",
+      "Test Club hard 2 Distractor B",
+      "Test Club hard 2 Distractor C"
+    ],
+    "detail": "Placeholder explanation for synthetic hard question #2, used only in tests.",
+    "source": "https://example.test/fixtures/hard-2",
+    "asOf": "2026-01"
+  },
+  {
+    "id": "h3",
+    "topic": "records",
+    "difficulty": "hard",
+    "question": "Synthetic hard question #3: which fictional club won test tournament 3?",
+    "answer": "Test Club hard 3 Answer",
+    "distractors": [
+      "Test Club hard 3 Distractor A",
+      "Test Club hard 3 Distractor B",
+      "Test Club hard 3 Distractor C"
+    ],
+    "detail": "Placeholder explanation for synthetic hard question #3, used only in tests.",
+    "source": "https://example.test/fixtures/hard-3",
+    "asOf": "2026-01"
+  },
+  {
+    "id": "h4",
+    "topic": "clubs",
+    "difficulty": "hard",
+    "question": "Synthetic hard question #4: which fictional club won test tournament 4?",
+    "answer": "Test Club hard 4 Answer",
+    "distractors": [
+      "Test Club hard 4 Distractor A",
+      "Test Club hard 4 Distractor B",
+      "Test Club hard 4 Distractor C"
+    ],
+    "detail": "Placeholder explanation for synthetic hard question #4, used only in tests.",
+    "source": "https://example.test/fixtures/hard-4",
+    "asOf": "2026-01"
+  },
+  {
+    "id": "h5",
+    "topic": "league",
+    "difficulty": "hard",
+    "question": "Synthetic hard question #5: which fictional club won test tournament 5?",
+    "answer": "Test Club hard 5 Answer",
+    "distractors": [
+      "Test Club hard 5 Distractor A",
+      "Test Club hard 5 Distractor B",
+      "Test Club hard 5 Distractor C"
+    ],
+    "detail": "Placeholder explanation for synthetic hard question #5, used only in tests.",
+    "source": "https://example.test/fixtures/hard-5",
+    "asOf": "2026-01"
+  },
+  {
+    "id": "h6",
+    "topic": "world-cup",
+    "difficulty": "hard",
+    "question": "Synthetic hard question #6: which fictional club won test tournament 6?",
+    "answer": "Test Club hard 6 Answer",
+    "distractors": [
+      "Test Club hard 6 Distractor A",
+      "Test Club hard 6 Distractor B",
+      "Test Club hard 6 Distractor C"
+    ],
+    "detail": "Placeholder explanation for synthetic hard question #6, used only in tests.",
+    "source": "https://example.test/fixtures/hard-6",
+    "asOf": "2026-01"
+  },
+  {
+    "id": "h7",
+    "topic": "transfers",
+    "difficulty": "hard",
+    "question": "Synthetic hard question #7: which fictional club won test tournament 7?",
+    "answer": "Test Club hard 7 Answer",
+    "distractors": [
+      "Test Club hard 7 Distractor A",
+      "Test Club hard 7 Distractor B",
+      "Test Club hard 7 Distractor C"
+    ],
+    "detail": "Placeholder explanation for synthetic hard question #7, used only in tests.",
+    "source": "https://example.test/fixtures/hard-7",
+    "asOf": "2026-01"
+  },
+  {
+    "id": "h8",
+    "topic": "records",
+    "difficulty": "hard",
+    "question": "Synthetic hard question #8: which fictional club won test tournament 8?",
+    "answer": "Test Club hard 8 Answer",
+    "distractors": [
+      "Test Club hard 8 Distractor A",
+      "Test Club hard 8 Distractor B",
+      "Test Club hard 8 Distractor C"
+    ],
+    "detail": "Placeholder explanation for synthetic hard question #8, used only in tests.",
+    "source": "https://example.test/fixtures/hard-8",
+    "asOf": "2026-01"
+  }
+]
