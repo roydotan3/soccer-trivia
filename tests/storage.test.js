@@ -51,6 +51,58 @@ function makeGarbageStorage(garbageKey) {
   };
 }
 
+// A storage-like that returns a fixed, validly-JSON-parseable but
+// wrong-shaped value for one specific key (e.g. "null" or "5" where an
+// object is expected), and otherwise behaves like a normal in-memory fake.
+function makeWrongShapeStorage(targetKey, rawValue) {
+  const map = new Map();
+  return {
+    getItem(key) {
+      if (key === targetKey) return rawValue;
+      return map.has(key) ? map.get(key) : null;
+    },
+    setItem(key, value) {
+      map.set(key, String(value));
+    },
+    removeItem(key) {
+      map.delete(key);
+    },
+  };
+}
+
+// A storage-like whose very property access throws (e.g. a getter that
+// throws, as some blocked/sandboxed storage objects do), as opposed to
+// makeThrowingStorage above where the property access succeeds but calling
+// the method throws.
+function makeAccessThrowingStorage() {
+  return new Proxy(
+    {},
+    {
+      get() {
+        throw new Error("property access boom");
+      },
+    },
+  );
+}
+
+// A storage-like whose setItem silently no-ops (accepts the call but never
+// actually persists the write) — simulating QuotaExceeded swallowed by the
+// host, or a no-op shim, rather than a storage that throws outright.
+function makeWriteDroppingStorage() {
+  const map = new Map();
+  return {
+    getItem(key) {
+      return map.has(key) ? map.get(key) : null;
+    },
+    setItem() {
+      // silently dropped — write never lands in `map`
+    },
+    removeItem(key) {
+      map.delete(key);
+    },
+  };
+}
+
 test("getName/setName round-trip through the storage object", () => {
   const store = createStore(makeFakeStorage());
   store.setName("Roy");
@@ -210,6 +262,89 @@ test("a storageImpl returning garbage JSON for a key: the affected read falls ba
   // other keys still work normally
   store.setName("Roy");
   assert.equal(store.getName(), "Roy");
+});
+
+test("a storageImpl returning the valid-JSON-but-wrong-shape \"null\" for stats: getStats() returns defaults, not a crash", () => {
+  const store = createStore(makeWrongShapeStorage("soccer-trivia:v1:stats", "null"));
+  assert.doesNotThrow(() => {
+    assert.deepEqual(store.getStats(), { rounds: 0, correct: 0, days: 0 });
+  });
+});
+
+test("a storageImpl returning the valid-JSON-but-wrong-shape \"5\" for bests: getBest() returns null, not a crash", () => {
+  const store = createStore(makeWrongShapeStorage("soccer-trivia:v1:bests", "5"));
+  assert.doesNotThrow(() => {
+    assert.equal(store.getBest("premier-league"), null);
+  });
+});
+
+test("a storageImpl returning the valid-JSON-but-wrong-shape \"\\\"x\\\"\" for bests: recordCompletedRound still works instead of crashing on bests[topicId]", () => {
+  const store = createStore(makeWrongShapeStorage("soccer-trivia:v1:bests", '"x"'));
+  assert.doesNotThrow(() => {
+    const result = store.recordCompletedRound("premier-league", {
+      score: 5,
+      correctCount: 5,
+      allQuestionIds: ["q1"],
+      dateStr: "2026-10-17",
+    });
+    assert.equal(result.isNewBest, true);
+    assert.equal(result.best, 5);
+  });
+});
+
+test("a storageImpl whose property access itself throws (not just its methods): every Store method returns its default and never throws, and writes still work via the in-memory fallback", () => {
+  const store = createStore(makeAccessThrowingStorage());
+  assert.doesNotThrow(() => {
+    assert.equal(store.getName(), null);
+    assert.equal(store.getBest("premier-league"), null);
+    assert.deepEqual(store.getStats(), { rounds: 0, correct: 0, days: 0 });
+  });
+  // The in-memory fallback should keep working correctly for this session.
+  store.setName("Noa");
+  assert.equal(store.getName(), "Noa");
+});
+
+test("createStore() with no argument, when globalThis.localStorage access itself throws: falls back to in-memory storage instead of throwing out of createStore()", () => {
+  const descriptor = Object.getOwnPropertyDescriptor(globalThis, "localStorage");
+  Object.defineProperty(globalThis, "localStorage", {
+    configurable: true,
+    get() {
+      throw new Error("SecurityError: blocked");
+    },
+  });
+  try {
+    let store;
+    assert.doesNotThrow(() => {
+      store = createStore();
+    });
+    assert.doesNotThrow(() => {
+      store.setName("Noa");
+      assert.equal(store.getName(), "Noa");
+    });
+  } finally {
+    if (descriptor) {
+      Object.defineProperty(globalThis, "localStorage", descriptor);
+    } else {
+      delete globalThis.localStorage;
+    }
+  }
+});
+
+test("a write-dropping storageImpl (setItem silently no-ops): setName(\"Noa\") followed by getName() returns \"Noa\" via the in-memory fallback, not null", () => {
+  const store = createStore(makeWriteDroppingStorage());
+  store.setName("Noa");
+  assert.equal(store.getName(), "Noa");
+});
+
+test("a write-dropping storageImpl: recordCompletedRound + getBest still work correctly via the in-memory fallback", () => {
+  const store = createStore(makeWriteDroppingStorage());
+  store.recordCompletedRound("premier-league", {
+    score: 5,
+    correctCount: 5,
+    allQuestionIds: ["q1"],
+    dateStr: "2026-10-17",
+  });
+  assert.equal(store.getBest("premier-league"), 5);
 });
 
 test("todayLocalDateStr formats a given Date as YYYY-MM-DD in local time", () => {
