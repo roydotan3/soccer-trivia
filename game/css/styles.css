@@ -10,6 +10,14 @@
   --cobalt: #2340e0;
   --yellow: #ffc62e;
   --coral: #ff5436;
+  /* Darker coral for TEXT use — as a text color, or as the background
+     behind white text — since the plain --coral only measures ~2.8-3.2:1
+     and fails the 4.5:1 contrast requirement either way. --coral-text
+     measures ~4.8:1 on cream, ~5.0:1 on the pale-yellow feedback card, and
+     ~5.5:1 for white text on a --coral-text fill. Keep --coral unchanged
+     for purely decorative, non-text fills (e.g. the icon band behind a
+     topic's SVG icon). */
+  --coral-text: #c2361d;
   --ink: #15172a;
   --muted: #4a4d63;
   --dashed: #9a9789;
@@ -125,7 +133,7 @@ h3 {
 }
 
 .btn-coral {
-  background: var(--coral);
+  background: var(--coral-text);
   color: #fff;
 }
 
@@ -171,7 +179,7 @@ h3 {
 }
 
 .field-error {
-  color: var(--coral);
+  color: var(--coral-text);
   font-size: 14px;
   font-weight: 700;
   min-height: 20px;
@@ -403,7 +411,7 @@ h3 {
 }
 
 .stat-value--coral {
-  color: var(--coral);
+  color: var(--coral-text);
 }
 
 .stat-value--ink {
@@ -573,7 +581,7 @@ h3 {
   position: absolute;
   top: -10px;
   left: -8px;
-  background: var(--coral);
+  background: var(--coral-text);
   color: #fff;
   border: 2px solid var(--ink);
   border-radius: 6px;
@@ -617,7 +625,7 @@ h3 {
 }
 
 .feedback-title--wrong {
-  color: var(--coral);
+  color: var(--coral-text);
 }
 
 .feedback-detail {
@@ -783,7 +791,7 @@ h3 {
   z-index: 1;
   margin-top: 28px;
   display: inline-block;
-  background: var(--coral);
+  background: var(--coral-text);
   color: #fff;
   border: 2.5px solid var(--ink);
   border-radius: 8px;
@@ -828,7 +836,7 @@ h3 {
 .load-failure p {
   font-family: "Secular One", sans-serif;
   font-size: 18px;
-  color: var(--coral);
+  color: var(--coral-text);
 }
 
 .load-failure .btn-secondary {
